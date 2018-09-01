@@ -1,0 +1,798 @@
+{
+    "name": "ddf--ihme--death_cause",
+    "language": {
+        "id": "en"
+    },
+    "created": "2018-09-01T03:04:18.201455+00:00",
+    "resources": [
+        {
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "path": "ddf--datapoints--deaths_number--by--sex-1--age--cause--location--year.csv",
+            "name": "ddf--datapoints--deaths_number--by--sex-1--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "1"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "deaths_number"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--deaths_number--by--sex-2--age--cause--location--year.csv",
+            "name": "ddf--datapoints--deaths_number--by--sex-2--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "2"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "deaths_number"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--deaths_number--by--sex-3--age--cause--location--year.csv",
+            "name": "ddf--datapoints--deaths_number--by--sex-3--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "3"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "deaths_number"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--deaths_rate--by--sex-1--age--cause--location--year.csv",
+            "name": "ddf--datapoints--deaths_rate--by--sex-1--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "1"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "deaths_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--deaths_rate--by--sex-2--age--cause--location--year.csv",
+            "name": "ddf--datapoints--deaths_rate--by--sex-2--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "2"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "deaths_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--deaths_rate--by--sex-3--age--cause--location--year.csv",
+            "name": "ddf--datapoints--deaths_rate--by--sex-3--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "3"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "deaths_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--incidence_number--by--sex-1--age--cause--location--year.csv",
+            "name": "ddf--datapoints--incidence_number--by--sex-1--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "1"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incidence_number"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--incidence_number--by--sex-2--age--cause--location--year.csv",
+            "name": "ddf--datapoints--incidence_number--by--sex-2--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "2"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incidence_number"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--incidence_number--by--sex-3--age--cause--location--year.csv",
+            "name": "ddf--datapoints--incidence_number--by--sex-3--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "3"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incidence_number"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--incidence_rate--by--sex-1--age--cause--location--year.csv",
+            "name": "ddf--datapoints--incidence_rate--by--sex-1--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "1"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incidence_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--incidence_rate--by--sex-2--age--cause--location--year.csv",
+            "name": "ddf--datapoints--incidence_rate--by--sex-2--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "2"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incidence_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--incidence_rate--by--sex-3--age--cause--location--year.csv",
+            "name": "ddf--datapoints--incidence_rate--by--sex-3--age--cause--location--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex",
+                        "constraints": {
+                            "enum": [
+                                "3"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incidence_rate"
+                    }
+                ],
+                "primaryKey": [
+                    "sex",
+                    "age",
+                    "cause",
+                    "location",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--entities--age.csv",
+            "name": "ddf--entities--age",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "short_name"
+                    },
+                    {
+                        "name": "type"
+                    }
+                ],
+                "primaryKey": "age"
+            }
+        },
+        {
+            "path": "ddf--entities--cause.csv",
+            "name": "ddf--entities--cause",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "label"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "medium_name"
+                    },
+                    {
+                        "name": "short_name"
+                    }
+                ],
+                "primaryKey": "cause"
+            }
+        },
+        {
+            "path": "ddf--entities--location.csv",
+            "name": "ddf--entities--location",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "short_name"
+                    },
+                    {
+                        "name": "medium_name"
+                    }
+                ],
+                "primaryKey": "location"
+            }
+        },
+        {
+            "path": "ddf--entities--rei.csv",
+            "name": "ddf--entities--rei",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "rei"
+                    },
+                    {
+                        "name": "type"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "short_name"
+                    }
+                ],
+                "primaryKey": "rei"
+            }
+        },
+        {
+            "path": "ddf--entities--sex.csv",
+            "name": "ddf--entities--sex",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "sex"
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "concept_type",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            }
+        ],
+        "entities": [
+            {
+                "primaryKey": [
+                    "cause"
+                ],
+                "value": "label",
+                "resources": [
+                    "ddf--entities--cause"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "cause"
+                ],
+                "value": "medium_name",
+                "resources": [
+                    "ddf--entities--cause"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location"
+                ],
+                "value": "medium_name",
+                "resources": [
+                    "ddf--entities--location"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--age"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "cause"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--cause"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--location"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "rei"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--rei"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "sex"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--sex"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age"
+                ],
+                "value": "short_name",
+                "resources": [
+                    "ddf--entities--age"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "cause"
+                ],
+                "value": "short_name",
+                "resources": [
+                    "ddf--entities--cause"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location"
+                ],
+                "value": "short_name",
+                "resources": [
+                    "ddf--entities--location"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "rei"
+                ],
+                "value": "short_name",
+                "resources": [
+                    "ddf--entities--rei"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age"
+                ],
+                "value": "type",
+                "resources": [
+                    "ddf--entities--age"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "rei"
+                ],
+                "value": "type",
+                "resources": [
+                    "ddf--entities--rei"
+                ]
+            }
+        ],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "age",
+                    "cause",
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "deaths_number",
+                "resources": [
+                    "ddf--datapoints--deaths_number--by--sex-1--age--cause--location--year",
+                    "ddf--datapoints--deaths_number--by--sex-2--age--cause--location--year",
+                    "ddf--datapoints--deaths_number--by--sex-3--age--cause--location--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age",
+                    "cause",
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "deaths_rate",
+                "resources": [
+                    "ddf--datapoints--deaths_rate--by--sex-1--age--cause--location--year",
+                    "ddf--datapoints--deaths_rate--by--sex-2--age--cause--location--year",
+                    "ddf--datapoints--deaths_rate--by--sex-3--age--cause--location--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age",
+                    "cause",
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "incidence_number",
+                "resources": [
+                    "ddf--datapoints--incidence_number--by--sex-1--age--cause--location--year",
+                    "ddf--datapoints--incidence_number--by--sex-2--age--cause--location--year",
+                    "ddf--datapoints--incidence_number--by--sex-3--age--cause--location--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age",
+                    "cause",
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "incidence_rate",
+                "resources": [
+                    "ddf--datapoints--incidence_rate--by--sex-1--age--cause--location--year",
+                    "ddf--datapoints--incidence_rate--by--sex-2--age--cause--location--year",
+                    "ddf--datapoints--incidence_rate--by--sex-3--age--cause--location--year"
+                ]
+            }
+        ],
+        "synonyms": []
+    }
+}
