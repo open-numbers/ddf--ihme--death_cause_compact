@@ -3,7 +3,7 @@ info:
 
 ingredients:
     - id: deaths_datapoints
-      dataset: open-numbers/ddf--ihme--death_cause
+      dataset: open-numbers/ddf--ihme--global_burden_disease_deaths
       key: "cause, sex, age, location, year"
       value: "*"
     - id: incidence_datapoints

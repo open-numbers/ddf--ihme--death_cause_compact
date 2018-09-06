@@ -1,9 +1,10 @@
 {
-    "name": "ddf--ihme--death_cause",
+    "name": "ddf--ihme--death_cause_compact",
     "language": {
         "id": "en"
     },
-    "created": "2018-09-01T03:04:18.201455+00:00",
+    "id": "compact_death_cause",
+    "created": "2018-09-06T04:12:31.573066+00:00",
     "resources": [
         {
             "path": "ddf--concepts.csv",
