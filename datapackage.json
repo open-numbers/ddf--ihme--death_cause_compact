@@ -3,12 +3,30 @@
     "language": {
         "id": "en"
     },
+    "created": "2018-12-14T10:36:08.342721+00:00",
     "id": "compact_death_cause",
-    "created": "2018-10-21T13:14:04.538052+00:00",
     "resources": [
         {
-            "path": "ddf--concepts.csv",
-            "name": "ddf--concepts",
+            "path": "ddf--concepts--continuous.csv",
+            "name": "ddf--concepts--continuous",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "path": "ddf--concepts--discrete.csv",
+            "name": "ddf--concepts--discrete",
             "schema": {
                 "fields": [
                     {
@@ -534,13 +552,16 @@
                         "name": "location"
                     },
                     {
+                        "name": "type"
+                    },
+                    {
                         "name": "name"
                     },
                     {
-                        "name": "short_name"
+                        "name": "medium_name"
                     },
                     {
-                        "name": "medium_name"
+                        "name": "short_name"
                     }
                 ],
                 "primaryKey": "location"
@@ -591,7 +612,8 @@
                 ],
                 "value": "concept_type",
                 "resources": [
-                    "ddf--concepts"
+                    "ddf--concepts--continuous",
+                    "ddf--concepts--discrete"
                 ]
             },
             {
@@ -600,7 +622,8 @@
                 ],
                 "value": "name",
                 "resources": [
-                    "ddf--concepts"
+                    "ddf--concepts--continuous",
+                    "ddf--concepts--discrete"
                 ]
             }
         ],
@@ -720,6 +743,15 @@
                 "value": "type",
                 "resources": [
                     "ddf--entities--age"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location"
+                ],
+                "value": "type",
+                "resources": [
+                    "ddf--entities--location"
                 ]
             },
             {
