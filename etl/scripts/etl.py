@@ -15,7 +15,7 @@ from zipfile import ZipFile
 import dask
 import dask.dataframe as dd
 
-from update_source import QUERIES
+from queries import QUERIES
 
 
 # global configurations
