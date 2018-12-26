@@ -3,7 +3,7 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-12-14T10:36:08.342721+00:00",
+    "created": "2018-12-26T08:17:09.145536+00:00",
     "id": "compact_death_cause",
     "resources": [
         {
@@ -568,27 +568,6 @@
             }
         },
         {
-            "path": "ddf--entities--rei.csv",
-            "name": "ddf--entities--rei",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "rei"
-                    },
-                    {
-                        "name": "type"
-                    },
-                    {
-                        "name": "name"
-                    },
-                    {
-                        "name": "short_name"
-                    }
-                ],
-                "primaryKey": "rei"
-            }
-        },
-        {
             "path": "ddf--entities--sex.csv",
             "name": "ddf--entities--sex",
             "schema": {
@@ -684,15 +663,6 @@
             },
             {
                 "primaryKey": [
-                    "rei"
-                ],
-                "value": "name",
-                "resources": [
-                    "ddf--entities--rei"
-                ]
-            },
-            {
-                "primaryKey": [
                     "sex"
                 ],
                 "value": "name",
@@ -729,15 +699,6 @@
             },
             {
                 "primaryKey": [
-                    "rei"
-                ],
-                "value": "short_name",
-                "resources": [
-                    "ddf--entities--rei"
-                ]
-            },
-            {
-                "primaryKey": [
                     "age"
                 ],
                 "value": "type",
@@ -752,15 +713,6 @@
                 "value": "type",
                 "resources": [
                     "ddf--entities--location"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "rei"
-                ],
-                "value": "type",
-                "resources": [
-                    "ddf--entities--rei"
                 ]
             }
         ],
