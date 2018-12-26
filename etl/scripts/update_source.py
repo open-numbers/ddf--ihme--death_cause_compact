@@ -3,12 +3,13 @@
 import os
 import tempfile
 import shutil
-from ddf_utils.factory import ihme as m
+from ddf_utils.factory import ihme
 
 from queries import QUERIES, VERSION
 
-
 source_dir = '../source'
+
+m = ihme.IHMELoader()
 
 
 def remove_old_source():

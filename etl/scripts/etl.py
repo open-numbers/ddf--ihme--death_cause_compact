@@ -189,7 +189,7 @@ def serve_entities(md):
 
 
 def main():
-    md = ihme.load_metadata()
+    md = ihme.IHMELoader().load_metadata()
 
     all_measures = list()
     for q in QUERIES:
