@@ -187,6 +187,11 @@ def serve_entities(md):
     ages.columns = ['age', 'name', 'short_name', 'type']
     ages.to_csv('../../ddf--entities--age.csv', index=False)
 
+    rei = md['rei'].copy()
+    rei = rei.drop(['most_detailed', 'enabled'], axis=1)
+    rei.columns = ['rei', 'type', 'name', 'short_name']
+    rei.to_csv('../../ddf--entities--rei.csv', index=False)
+
 
 def main():
     md = ihme.IHMELoader().load_metadata()
