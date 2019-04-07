@@ -3,12 +3,12 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-12-27T10:01:15.199911+00:00",
+    "created": "2019-04-07T03:03:52.605360+00:00",
     "id": "compact_death_cause",
     "resources": [
         {
-            "path": "ddf--concepts--continuous.csv",
             "name": "ddf--concepts--continuous",
+            "path": "ddf--concepts--continuous.csv",
             "schema": {
                 "fields": [
                     {
@@ -25,8 +25,8 @@
             }
         },
         {
-            "path": "ddf--concepts--discrete.csv",
             "name": "ddf--concepts--discrete",
+            "path": "ddf--concepts--discrete.csv",
             "schema": {
                 "fields": [
                     {
@@ -43,8 +43,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--deaths_number--by--sex-1--age--cause--location--year.csv",
             "name": "ddf--datapoints--deaths_number--by--sex-1--age--cause--location--year",
+            "path": "ddf--datapoints--deaths_number--by--sex-1--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -81,8 +81,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--deaths_number--by--sex-2--age--cause--location--year.csv",
             "name": "ddf--datapoints--deaths_number--by--sex-2--age--cause--location--year",
+            "path": "ddf--datapoints--deaths_number--by--sex-2--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -119,8 +119,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--deaths_number--by--sex-3--age--cause--location--year.csv",
             "name": "ddf--datapoints--deaths_number--by--sex-3--age--cause--location--year",
+            "path": "ddf--datapoints--deaths_number--by--sex-3--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -157,8 +157,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--deaths_rate--by--sex-1--age--cause--location--year.csv",
             "name": "ddf--datapoints--deaths_rate--by--sex-1--age--cause--location--year",
+            "path": "ddf--datapoints--deaths_rate--by--sex-1--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -195,8 +195,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--deaths_rate--by--sex-2--age--cause--location--year.csv",
             "name": "ddf--datapoints--deaths_rate--by--sex-2--age--cause--location--year",
+            "path": "ddf--datapoints--deaths_rate--by--sex-2--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -233,8 +233,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--deaths_rate--by--sex-3--age--cause--location--year.csv",
             "name": "ddf--datapoints--deaths_rate--by--sex-3--age--cause--location--year",
+            "path": "ddf--datapoints--deaths_rate--by--sex-3--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -271,8 +271,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--incidence_number--by--sex-1--age--cause--location--year.csv",
             "name": "ddf--datapoints--incidence_number--by--sex-1--age--cause--location--year",
+            "path": "ddf--datapoints--incidence_number--by--sex-1--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -309,8 +309,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--incidence_number--by--sex-2--age--cause--location--year.csv",
             "name": "ddf--datapoints--incidence_number--by--sex-2--age--cause--location--year",
+            "path": "ddf--datapoints--incidence_number--by--sex-2--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -347,8 +347,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--incidence_number--by--sex-3--age--cause--location--year.csv",
             "name": "ddf--datapoints--incidence_number--by--sex-3--age--cause--location--year",
+            "path": "ddf--datapoints--incidence_number--by--sex-3--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -385,8 +385,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--incidence_rate--by--sex-1--age--cause--location--year.csv",
             "name": "ddf--datapoints--incidence_rate--by--sex-1--age--cause--location--year",
+            "path": "ddf--datapoints--incidence_rate--by--sex-1--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -423,8 +423,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--incidence_rate--by--sex-2--age--cause--location--year.csv",
             "name": "ddf--datapoints--incidence_rate--by--sex-2--age--cause--location--year",
+            "path": "ddf--datapoints--incidence_rate--by--sex-2--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -461,8 +461,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--incidence_rate--by--sex-3--age--cause--location--year.csv",
             "name": "ddf--datapoints--incidence_rate--by--sex-3--age--cause--location--year",
+            "path": "ddf--datapoints--incidence_rate--by--sex-3--age--cause--location--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -499,8 +499,8 @@
             }
         },
         {
-            "path": "ddf--entities--age.csv",
             "name": "ddf--entities--age",
+            "path": "ddf--entities--age.csv",
             "schema": {
                 "fields": [
                     {
@@ -520,8 +520,8 @@
             }
         },
         {
-            "path": "ddf--entities--cause.csv",
             "name": "ddf--entities--cause",
+            "path": "ddf--entities--cause.csv",
             "schema": {
                 "fields": [
                     {
@@ -544,8 +544,8 @@
             }
         },
         {
-            "path": "ddf--entities--location.csv",
             "name": "ddf--entities--location",
+            "path": "ddf--entities--location.csv",
             "schema": {
                 "fields": [
                     {
@@ -568,8 +568,8 @@
             }
         },
         {
-            "path": "ddf--entities--rei.csv",
             "name": "ddf--entities--rei",
+            "path": "ddf--entities--rei.csv",
             "schema": {
                 "fields": [
                     {
@@ -589,8 +589,8 @@
             }
         },
         {
-            "path": "ddf--entities--sex.csv",
             "name": "ddf--entities--sex",
+            "path": "ddf--entities--sex.csv",
             "schema": {
                 "fields": [
                     {
