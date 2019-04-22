@@ -14,7 +14,8 @@ m = ihme.IHMELoader()
 
 def remove_old_source():
     full_path = os.path.abspath(source_dir)
-    shutil.rmtree(full_path)
+    if os.path.exists(full_path):
+        shutil.rmtree(full_path)
     os.makedirs(full_path)
 
 
