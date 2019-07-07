@@ -3,7 +3,11 @@
     "language": {
         "id": "en"
     },
-    "created": "2019-04-07T03:03:52.605360+00:00",
+    "title": "ddf--ihme--death_cause_compact",
+    "description": "",
+    "author": "",
+    "license": "",
+    "created": "2019-07-07T11:48:12.525068+00:00",
     "id": "compact_death_cause",
     "resources": [
         {
