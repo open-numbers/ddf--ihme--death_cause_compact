@@ -109,7 +109,7 @@ class QueryProcessor:
         """
         source_dir = os.path.join('../source/', self.query['id'])
         print('loading data from {}'.format(source_dir))
-        data_full = dd.from_delayed([dask.delayed(self.load_data)(f) for f in os.listdir(source_dir) if f.endswith('.zip')], meta=DTYPES)
+        data_full = dd.from_delayed([dask.delayed(self.load_data)(f) for f in os.listdir(source_dir) if f.endswith('.zip')])
 
         md = self.metadata
         metric = md['metric'].set_index('id')['name'].to_dict()
