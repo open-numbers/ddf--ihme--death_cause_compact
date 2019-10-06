@@ -176,7 +176,7 @@ def serve_entities(md):
     causes.to_csv('../../ddf--entities--cause.csv', index=False)
 
     locations = md['location'].copy()
-    locations = locations[locations.location_id != 'custom'].drop(['location_id', 'enabled'], axis=1)
+    locations = locations[locations['id'] != 'custom'].drop(['enabled'], axis=1)
     locations = locations.rename(columns={'id': 'location'})
     locations = locations[['location', 'type', 'name', 'medium_name', 'short_name']]
     locations.location = locations.location.map(lambda x: str(int(x)))
