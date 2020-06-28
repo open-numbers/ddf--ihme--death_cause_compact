@@ -45,4 +45,4 @@ age,name,short_name,type
 24,15-49 years,15-49,aggregate
 25,50-69 years,50-69,aggregate
 26,70+ years,70+,aggregate
-27,Age-standardized,NULL,aggregate
+27,Age-standardized,Age-standardized,aggregate
