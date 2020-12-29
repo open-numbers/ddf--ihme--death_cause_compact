@@ -29,7 +29,7 @@ cause,label,name,medium_name,short_name
 319,A.3.2.1,Typhoid fever,Typhoid fever,Typhoid
 320,A.3.2.2,Paratyphoid fever,Paratyphoid fever,Paratyph
 959,A.3.3,Invasive Non-typhoidal Salmonella (iNTS),iNTS,iNTS
-321,A.3.5,Other intestinal infectious diseases,Other intestinal infect,Oth Intest
+321,A.3.4,Other intestinal infectious diseases,Other intestinal infect,Oth Intest
 344,A.4,Neglected tropical diseases and malaria,NTDs & malaria,NTD+Malaria
 345,A.4.1,Malaria,Malaria,Malaria
 346,A.4.2,Chagas disease,Chagas disease,Chagas
@@ -58,10 +58,6 @@ cause,label,name,medium_name,short_name
 365,A.4.20,Other neglected tropical diseases,Other NTDs,Oth NTD
 961,A.5,Other infectious diseases,Other infectious,Other+Diseases
 332,A.5.1,Meningitis,Meningitis,Meningitis
-333,A.5.1.1,Pneumococcal meningitis,Pneumo meningitis,Mng Pne
-334,A.5.1.2,H influenzae type B meningitis,HIB meningitis,Mng HiB
-335,A.5.1.3,Meningococcal meningitis,Meningo meningitis,Mng Men
-336,A.5.1.4,Other meningitis,Other meningitis,Oth Mng
 337,A.5.2,Encephalitis,Encephalitis,Encepha
 338,A.5.3,Diphtheria,Diphtheria,Diphtheria
 339,A.5.4,Whooping cough,Whooping cough,Whooping
@@ -111,7 +107,7 @@ cause,label,name,medium_name,short_name
 419,B.1.7.2,Liver cancer due to hepatitis C,Liver cancer hepatitis C,Liver C HepC
 420,B.1.7.3,Liver cancer due to alcohol use,Liver cancer alcohol,Liver C Alc
 996,B.1.7.4,Liver cancer due to NASH,Liver cancer due to NASH,Liver C NASH
-421,B.1.7.5,Liver cancer due to other causes,Liver cancer other,Oth Liver C
+1021,B.1.7.5,Liver cancer due to other causes,Liver cancer other,Oth Liver C
 453,B.1.8,Gallbladder and biliary tract cancer,Gallbladder cancer,Gallblad C
 456,B.1.9,Pancreatic cancer,Pancreatic cancer,Pancreas C
 423,B.1.10,Larynx cancer,Larynx cancer,Larynx C
@@ -128,7 +124,7 @@ cause,label,name,medium_name,short_name
 468,B.1.19,Testicular cancer,Testicular cancer,Testis C
 471,B.1.20,Kidney cancer,Kidney cancer,Kidney C
 474,B.1.21,Bladder cancer,Bladder cancer,Bladder C
-477,B.1.22,Brain and nervous system cancer,Brain cancer,Brain C
+477,B.1.22,Brain and central nervous system cancer,Brain cancer,Brain C
 480,B.1.23,Thyroid cancer,Thyroid cancer,Thyroid C
 483,B.1.24,Mesothelioma,Mesothelioma,Mesothel
 484,B.1.25,Hodgkin lymphoma,Hodgkin lymphoma,Hodgkin
@@ -140,7 +136,7 @@ cause,label,name,medium_name,short_name
 847,B.1.28.3,Acute myeloid leukemia,Acute myeloid leukemia,AML
 848,B.1.28.4,Chronic myeloid leukemia,Chronic myeloid leukemia,CML
 943,B.1.28.5,Other leukemia,Other leukemia,Oth Leukemia
-489,B.1.29,Other malignant neoplasms,Other malignant neoplasms,Other MN
+1022,B.1.29,Other malignant neoplasms,Other malignant neoplasms,Other MN
 490,B.1.30,Other neoplasms,Other neoplasms,Other Neo
 964,B.1.30.1,"Myelodysplastic, myeloproliferative, and other hematopoietic neoplasms","MDS, MPN, & hematop",MDS+MPN
 965,B.1.30.2,Benign and in situ intestinal neoplasms,Intestinal benign,Intest NMN
@@ -162,11 +158,11 @@ cause,label,name,medium_name,short_name
 942,B.2.6.1,Myocarditis,Myocarditis,Myocarditis
 938,B.2.6.2,Alcoholic cardiomyopathy,Alcoholic cardiomyopathy,Alcohol CMP
 944,B.2.6.3,Other cardiomyopathy,Other cardiomyopathy,Oth CMP
-500,B.2.7,Atrial fibrillation and flutter,Atrial fibrillation,A Fib
-501,B.2.8,Aortic aneurysm,Aortic aneurysm,Aort An
-502,B.2.9,Peripheral artery disease,Peripheral artery,PAD
-503,B.2.10,Endocarditis,Endocarditis,Endocar
-507,B.2.11,Other cardiovascular and circulatory diseases,Other cardiovascular,Oth Cardio
+500,B.2.8,Atrial fibrillation and flutter,Atrial fibrillation,A Fib
+501,B.2.9,Aortic aneurysm,Aortic aneurysm,Aort An
+502,B.2.10,Peripheral artery disease,Peripheral artery,PAD
+503,B.2.11,Endocarditis,Endocarditis,Endocar
+1023,B.2.12,Other cardiovascular and circulatory diseases,Other cardiovascular,Oth Cardio
 508,B.3,Chronic respiratory diseases,Chronic respiratory,Chr Resp
 509,B.3.1,Chronic obstructive pulmonary disease,COPD,COPD
 510,B.3.2,Pneumoconiosis,Pneumoconiosis,Pneumocon
@@ -182,7 +178,7 @@ cause,label,name,medium_name,short_name
 522,B.4.1.1,Cirrhosis and other chronic liver diseases due to hepatitis B,Cirrhosis hepatitis B,Cirr HepB
 523,B.4.1.2,Cirrhosis and other chronic liver diseases due to hepatitis C,Cirrhosis hepatitis C,Cirr HepC
 524,B.4.1.3,Cirrhosis and other chronic liver diseases due to alcohol use,Cirrhosis alcohol,Cirr Alc
-971,B.4.1.4,Cirrhosis due to NASH,Cirrhosis due to NASH,Cirr Nash
+971,B.4.1.4,Cirrhosis and other chronic liver diseases due to NAFLD,Cirrhosis and other due to NAFLD,Cirr Oth NAFLD
 525,B.4.1.5,Cirrhosis and other chronic liver diseases due to other causes,Cirrhosis other,Oth Cirr
 992,B.4.2,Upper digestive system diseases,Upper digest diseases,Upper Digest
 527,B.4.2.1,Peptic ulcer disease,Peptic ulcer disease,PUD
@@ -199,7 +195,7 @@ cause,label,name,medium_name,short_name
 542,B.5,Neurological disorders,Neurological disorders,Neuro
 543,B.5.1,Alzheimer's disease and other dementias,Alzheimer's disease,Alzheimer's
 544,B.5.2,Parkinson's disease,Parkinson's disease,Parkinson's
-545,B.5.3,Epilepsy,Epilepsy,Epilepsy
+545,B.5.3,Idiopathic epilepsy,Idiopathic epilepsy,Idiopathic epilepsy
 546,B.5.4,Multiple sclerosis,Multiple sclerosis,MS
 554,B.5.5,Motor neuron disease,Motor neuron disease,ALS
 972,B.5.6,Headache disorders,Headache disorders,Headaches
@@ -259,7 +255,7 @@ cause,label,name,medium_name,short_name
 665,B.9.11,Decubitus ulcer,Decubitus ulcer,Decubitus
 668,B.9.12,Other skin and subcutaneous diseases,Other skin diseases,Oth Skin
 669,B.10,Sense organ diseases,Sense organ diseases,Sense
-981,B.10.1,Blindness and vision impairment,Blindness and vision impairment,Blindness
+981,B.10.1,Blindness and vision loss,Blindness and vision loss,Blindness
 670,B.10.1.1,Glaucoma,Glaucoma,Glaucoma
 671,B.10.1.2,Cataract,Cataract,Cataract
 672,B.10.1.3,Age-related macular degeneration,Age-related macular degeneration,Macular
@@ -271,6 +267,10 @@ cause,label,name,medium_name,short_name
 626,B.11,Musculoskeletal disorders,Musculoskeletal disorders,MSK
 627,B.11.1,Rheumatoid arthritis,Rheumatoid arthritis,Rheu Arth
 628,B.11.2,Osteoarthritis,Osteoarthritis,Osteoarth
+1014,B.11.2.1,Osteoarthritis hip,Osteoarthritis hip,Osteoarth Hip
+1015,B.11.2.2,Osteoarthritis knee,Osteoarthritis knee,Osteoarth Knee
+1016,B.11.2.3,Osteoarthritis hand,Osteoarthritis hand,Osteoarth Hand
+1017,B.11.2.4,Osteoarthritis other,Osteoarthritis other,Osteoarth Oth
 630,B.11.3,Low back pain,Low back pain,Back Pain
 631,B.11.4,Neck pain,Neck pain,Neck Pain
 632,B.11.5,Gout,Gout,Gout
@@ -289,7 +289,7 @@ cause,label,name,medium_name,short_name
 651,B.12.1.10,Digestive congenital anomalies,Digestive cong anomalies,Digest Anom
 652,B.12.1.11,Other congenital birth defects,Other congenital,Oth Cong
 594,B.12.2,Urinary diseases and male infertility,Urinary diseases,Urinary
-595,B.12.2.1,Urinary tract infections,Urinary tract infect,UTI
+595,B.12.2.1,Urinary tract infections and interstitial nephritis,Urinary tract infections and interstitial nephritis,UTI and interstitial nephritis
 596,B.12.2.2,Urolithiasis,Urolithiasis,Urolith
 597,B.12.2.3,Benign prostatic hyperplasia,BPH,BPH
 598,B.12.2.4,Male infertility,Male infertility,Infert M
@@ -315,7 +315,7 @@ cause,label,name,medium_name,short_name
 681,B.12.6.1,Caries of deciduous teeth,Deciduous caries,Dec Caries
 682,B.12.6.2,Caries of permanent teeth,Permanent caries,Per Caries
 683,B.12.6.3,Periodontal diseases,Periodontal diseases,Period
-684,B.12.6.4,Edentulism and severe tooth loss,Edentulism,Edentul
+684,B.12.6.4,Edentulism,Edentulism,Edentul
 685,B.12.6.5,Other oral disorders,Other oral disorders,Other Oral
 686,B.12.7,Sudden infant death syndrome,SIDS,SIDS
 687,C,Injuries,Injuries,Injuries
@@ -359,3 +359,7 @@ cause,label,name,medium_name,short_name
 727,C.3.2.4,Physical violence by other means,Violence other means,Oth Viol
 945,C.3.3,Conflict and terrorism,Conflict & terror,Conflict Terror
 854,C.3.4,Executions and police conflict,Execution & police,Exec & Police
+1029,D,Total cancers,Total cancers,Tot Cancer
+1026,E,Total burden related to hepatitis B,Total burden related to hep B,Tot Hep B
+1027,F,Total burden related to hepatitis C,Total burden related to hep C,Tot Hep C
+1028,G,Total burden related to Non-alcoholic fatty liver disease (NAFLD),Total burden related to NAFLD,Tot NAFLD

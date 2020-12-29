@@ -15,6 +15,9 @@ rei,type,name,short_name
 86,risk,Ambient particulate matter pollution,Ambient particulate matter
 87,risk,Household air pollution from solid fuels,Household air pollution
 88,risk,Ambient ozone pollution,Ozone
+331,risk,Non-optimal temperature,Non-optimal temperature
+337,risk,High temperature,High temperature
+338,risk,Low temperature,Low temperature
 89,risk,Other environmental risks,Other environmental
 90,risk,Residential radon,Radon
 91,risk,Lead exposure,Lead
@@ -47,8 +50,8 @@ rei,type,name,short_name
 240,risk,Child wasting,Child wasting
 241,risk,Child stunting,Child stunting
 339,risk,Low birth weight and short gestation,Low birth weight & short gestation
-334,risk,Short gestation for birth weight,Short gestation
-335,risk,Low birth weight for gestation,Low birth weight
+334,risk,Short gestation,Short gestation
+335,risk,Low birth weight,Low birth weight
 95,risk,Iron deficiency,Iron deficiency
 96,risk,Vitamin A deficiency,Vitamin A deficiency
 97,risk,Zinc deficiency,Zinc deficiency
@@ -75,7 +78,7 @@ rei,type,name,short_name
 123,risk,Diet high in trans fatty acids,High trans fat
 124,risk,Diet high in sodium,High sodium
 135,risk,Intimate partner violence,Intimate partner violence
-381,risk,Childhood maltreatment,Childhood maltreatment
+381,risk,Childhood sexual abuse and bullying,Childhood sexual abuse and bullying
 134,risk,Childhood sexual abuse,Childhood sexual abuse
 363,risk,Bullying victimization,Bullying
 170,risk,Unsafe sex,Unsafe sex
@@ -85,8 +88,7 @@ rei,type,name,short_name
 107,risk,High systolic blood pressure,High blood pressure
 108,risk,High body-mass index,High body-mass index
 109,risk,Low bone mineral density,Low bone mineral density
-341,risk,Impaired kidney function,Impaired kidney function
-172,etiology,Diarrheal disease etiologies,Diarrhea etiologies
+341,risk,Kidney dysfunction,Kidney dysfunction
 173,etiology,Cholera,Cholera
 174,etiology,Non-typhoidal Salmonella,Non-typhoidal Salmonella
 175,etiology,Shigella,Shigella
@@ -100,11 +102,11 @@ rei,type,name,short_name
 183,etiology,Clostridium difficile,Clostridium difficile
 184,etiology,Norovirus,Norovirus
 185,etiology,Adenovirus,Adenovirus
-186,etiology,Lower respiratory infection etiologies,LRI etiologies
 187,etiology,Influenza,Influenza
-188,etiology,Pneumococcal pneumonia,Pneumococcal pneumonia
+188,etiology,Pneumococcus,Pneumococcus
 189,etiology,H influenzae type B,H influenzae type B
 190,etiology,Respiratory syncytial virus,Respiratory syncytial virus
+386,etiology,Meningococcal meningitis,Mng Men
 192,impairment,Anemia,Anemia
 205,impairment,Mild anemia,Mild anemia
 206,impairment,Moderate anemia,Moderate anemia
@@ -122,10 +124,10 @@ rei,type,name,short_name
 215,impairment,Profound hearing loss,Profound hearing loss
 216,impairment,Complete hearing loss,Complete hearing loss
 196,impairment,Heart failure,Heart failure
+379,impairment,Treated heart failure,Treated heart failure
 217,impairment,Mild heart failure,Mild heart failure
 218,impairment,Moderate heart failure,Moderate heart failure
 219,impairment,Severe heart failure,Severe heart failure
-379,impairment,Treated heart failure,Treated heart failure
 198,impairment,Infertility,Infertility
 220,impairment,Primary infertility,Primary infertility
 221,impairment,Secondary infertility,Secondary infertility
@@ -138,13 +140,11 @@ rei,type,name,short_name
 199,impairment,Pelvic inflammatory disease,Pelvic inflammatory
 226,impairment,Moderate pelvic inflammatory disease,Moderate pelvic inflammatory disease
 227,impairment,Severe pelvic inflammatory disease,Severe pelvic inflammatory disease
-200,impairment,Blindness and vision impairment,Blindness
-228,impairment,Mild vision loss,Mild vision loss
+200,impairment,Blindness and vision loss,Blindness
+233,impairment,Presbyopia,Presbyopia
 229,impairment,Moderate vision loss,Moderate vision loss
 230,impairment,Severe vision loss,Severe vision loss
 231,impairment,Blindness,Blindness
-232,impairment,Monocular vision loss,Monocular vision loss
-233,impairment,Presbyopia,Presbyopia
 298,injury n-codes,Amputations,N_amputations
 250,injury n-codes,"Amputation of lower limbs, bilateral",N1
 261,injury n-codes,"Amputation of upper limbs, bilateral",N2
