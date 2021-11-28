@@ -1,32 +1,6 @@
 age,name,short_name,type
-420,<70 years,<70,aggregate
-284,20 to 54 years,20-54,aggregate
-243,75 to 84,75,aggregate
-28,<1 year,<1,aggregate
-289,75 to 94 years,75-94,aggregate
-235,95 plus,95+,aggregate
-234,75 plus,75+,aggregate
-37,20 plus,20+ years,specific
-39,0 to 14,NULL,aggregate
-41,50 to 74 years,50-74,aggregate
-42,Neonatal,NN,aggregate
-158,<20 years,<20,aggregate
-159,10 to 24,10-24,aggregate
-160,85 plus,85,specific
-169,10 to 54,NULL,aggregate
-172,0 to 9,0-9,aggregate
-188,5 to 19,5-19,aggregate
-197,15 to 39,15-39,aggregate
-206,25 to 49,25-49,aggregate
-228,55 plus,55+,aggregate
-285,55 to 89 years,55-89,aggregate
-230,60 to 79,60-79,aggregate
-286,60 to 89 years,60-89,aggregate
-232,65 to 74,65-74,aggregate
-288,70 to 89 years,70-89,aggregate
-287,65 to 89 years,65-89,aggregate
-164,Birth,Birth,specific
 22,All Ages,All,aggregate
+27,Age-standardized,Age-standardized,aggregate
 2,Early Neonatal,EN,specific
 3,Late Neonatal,LN,specific
 4,Post Neonatal,PN,specific
@@ -35,7 +9,6 @@ age,name,short_name,type
 7,10 to 14,10,specific
 8,15 to 19,15,specific
 9,20 to 24,20,specific
-157,25 plus,NULL,specific
 10,25 to 29,25,specific
 11,30 to 34,30,specific
 12,35 to 39,35,specific
@@ -48,12 +21,39 @@ age,name,short_name,type
 19,70 to 74,70,specific
 20,75 to 79,75,specific
 30,80 to 84,80,specific
-21,80 plus,80,specific
 31,85 to 89,85,specific
+32,90 to 94,90,specific
+235,95 plus,95+,aggregate
+164,Birth,Birth,specific
+42,Neonatal,NN,aggregate
+172,0 to 9,0-9,aggregate
+39,0 to 14,NULL,aggregate
+28,<1 year,<1,aggregate
 1,Under 5,<5,aggregate
 23,5-14 years,5-14,aggregate
-32,90 to 94,90,specific
+188,5 to 19,5-19,aggregate
+159,10 to 24,10-24,aggregate
+169,10 to 54,NULL,aggregate
+197,15 to 39,15-39,aggregate
 24,15-49 years,15-49,aggregate
+158,<20 years,<20,aggregate
+37,20 plus,20+ years,specific
+284,20 to 54 years,20-54,aggregate
+157,25 plus,NULL,specific
+206,25 to 49,25-49,aggregate
 25,50-69 years,50-69,aggregate
+41,50 to 74 years,50-74,aggregate
+228,55 plus,55+,aggregate
+285,55 to 89 years,55-89,aggregate
+230,60 to 79,60-79,aggregate
+286,60 to 89 years,60-89,aggregate
+232,65 to 74,65-74,aggregate
+287,65 to 89 years,65-89,aggregate
+420,<70 years,<70,aggregate
 26,70+ years,70+,aggregate
-27,Age-standardized,Age-standardized,aggregate
+288,70 to 89 years,70-89,aggregate
+234,75 plus,75+,aggregate
+243,75 to 84,75,aggregate
+289,75 to 94 years,75-94,aggregate
+21,80 plus,80,specific
+160,85 plus,85,specific
