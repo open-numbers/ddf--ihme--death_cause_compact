@@ -5,7 +5,7 @@
 # note 2: age-standarized data: age = 27. All age data: age = 22
 # But we only need age-standarized when metric = 3.
 VERSION = 7267
-YEAR = list(range(1990, 2019))
+YEAR = list(range(1990, 2021))
 LOCATION = [10, 101, 102, 105, 106, 107, 108, 109, 11, 110, 111,
             112, 113, 114, 115, 116, 117, 118, 119, 12, 121, 122,
             123, 125, 126, 127, 128, 129, 13, 130, 131, 132, 133,
