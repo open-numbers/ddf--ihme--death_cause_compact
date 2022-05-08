@@ -28,7 +28,7 @@ CONF = {'split_by': 'sex',
 formatter = partial(format_float_digits, digits=2)
 
 # settings for read_csv
-DTYPES = dict(location=np.int32, sex=np.int8, year=np.int16, cause=np.int16, age=np.int16, val=np.float,
+DTYPES = dict(location=np.int32, sex=np.int8, year=np.int16, cause=np.int16, age=np.int16, val=float,
               measure=np.int8, metric=np.int8)
 
 

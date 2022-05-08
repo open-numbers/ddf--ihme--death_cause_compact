@@ -11,7 +11,8 @@ from queries import QUERIES, VERSION, EMAIL
 source_dir = '../source'
 
 taskIDs = {
-    'deaths_number_rate': '42952e589a846e6f9bc825c73d56f99f'
+    'deaths_number_rate': '84b0674d5e9894b622b66fd440d65b14',
+    'incidence_number_rate': 'b253de10d48191eefd315edd895d0ee2'
 }
 
 m = ihme.IHMELoader()
@@ -38,40 +39,46 @@ def run_download(context, taskID):
     m.bulk_download(out_dir, taskID)
 
 
-def main(force_update=False):
+def main(action=None):
     md = m.load_metadata()
     version = md['version'].sort_values(by='id').iloc[-1, 0]
     print('latest version is: {}'.format(version))
     print('query version is {}'.format(VERSION))
 
-    if force_update:
-        if version == VERSION:
-            print('downloading files...')
-            remove_old_source()
-            for k, v in taskIDs.items():
-                run_download(k, v)
-            print('all done.')
-        else:
-            print('new version detected!  I will send query to the GBD tool'
-                  'please check your email and update the taskID list variable.'
-                  'and re-run the script')
-            print(f'email address: {EMAIL}')
-            for q in QUERIES:
-                run_query(q, version)
+    if action == 'download':
+        if version != VERSION:
+            print('WARNING: new version detected.')
+        print('downloading files...')
+        remove_old_source()
+        for k, v in taskIDs.items():
+            run_download(k, v)
+        print('all done.')
+    elif action == 'query':
+        print('I will send query to the GBD tool'
+              'please check your email and update the taskID list variable.'
+              'and re-run the script with --download')
+        print(f'email address: {EMAIL}')
+        for q in QUERIES:
+            run_query(q, version)
     else:
+        # TODO: how to make airflow server reuse old source files?
         if version == VERSION:
             print('no new version, keep using old source files.')
         else:
-            print('new version detected!  Please run the script again manually with --force')
+            print('new version detected!  Please run the script again manually with --query')
             raise ValueError('new version detected')
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--force', help='force update',
-                        action=argparse.BooleanOptionalAction)
+    parser.add_argument('--query', help='send query', action='store_true')
+    parser.add_argument('--download', help='download all tasks', action='store_true')
     args = vars(parser.parse_args(sys.argv[1:]))
-    if args['force']:
-        main(force_update=True)
+    if args['query'] and args['download']:
+        raise ValueError('--query and --download can not be set at same time')
+    if args['query']:
+        main(action='query')
+    elif args['download']:
+        main(action='download')
     else:
-        main(force_update=False)
+        main(action=None)
