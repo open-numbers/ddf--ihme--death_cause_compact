@@ -166,17 +166,18 @@ def serve_datapoint(df, by, concept, split_by=False):
 
 
 def serve_entities(md):
+
     sexs = md['sex'].copy()
     sexs.columns = ['sex', 'name', 'short_name']
     sexs[['sex', 'name']].to_csv('../../ddf--entities--sex.csv', index=False)
 
     causes = md['cause'].copy()
-    causes = causes.drop(['most_detailed', 'sort_order'], axis=1)
+    causes = causes.drop(['most_detailed', 'male', 'female', 'sort_order'], axis=1)
     causes.columns = ['cause', 'label', 'name', 'medium_name', 'short_name']
     causes.to_csv('../../ddf--entities--cause.csv', index=False)
 
     locations = md['location'].copy()
-    locations = locations[locations['id'] != 'custom'].drop(['enabled'], axis=1)
+    locations = locations[~pd.isnull(locations['id'])].drop(columns=['enabled', 'location_id'])
     locations = locations.rename(columns={'id': 'location'})
     locations = locations[['location', 'type', 'name', 'medium_name', 'short_name']]
     locations.location = locations.location.map(lambda x: str(int(x)))

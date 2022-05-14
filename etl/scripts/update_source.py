@@ -11,8 +11,8 @@ from queries import QUERIES, VERSION, EMAIL
 source_dir = '../source'
 
 taskIDs = {
-    'deaths_number_rate': '84b0674d5e9894b622b66fd440d65b14',
-    'incidence_number_rate': 'b253de10d48191eefd315edd895d0ee2'
+    'deaths_number_rate': '4f4ce6aef1cba0568dacadb727a22b08',
+    'incidence_number_rate': '15571ecd990ca9fd7ea01a3a9d223d7b'
 }
 
 m = ihme.IHMELoader()
@@ -54,12 +54,12 @@ def main(action=None):
             run_download(k, v)
         print('all done.')
     elif action == 'query':
-        print('I will send query to the GBD tool'
-              'please check your email and update the taskID list variable.'
-              'and re-run the script with --download')
-        print(f'email address: {EMAIL}')
-        for q in QUERIES:
-            run_query(q, version)
+        print('GBD Result tool now require register and login')
+        print('Can not do it via script right now...')
+        raise NotImplementedError('can not send query')
+        # print(f'email address: {EMAIL}')
+        # for q in QUERIES:
+        #     run_query(q, version)
     else:
         # TODO: how to make airflow server reuse old source files?
         if version == VERSION:
