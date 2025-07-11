@@ -89,9 +89,11 @@ celerybeat-schedule
 # virtualenv
 venv/
 ENV/
+.venv/
 
 # Spyder project settings
 .spyderproject
 
 # Rope project settings
 .ropeproject
+.aider*

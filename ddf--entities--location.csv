@@ -35,8 +35,8 @@ location,type,name,medium_name,short_name
 58,,Estonia,Estonia,Estonia
 59,,Latvia,Latvia,Latvia
 60,,Lithuania,Lithuania,Lithuania
-61,,Republic of Moldova,Republic of Moldova,Republic of Moldova
-62,,Russian Federation,Russian Federation,Russian Federation
+61,,Republic of Moldova,Republic of Moldova,Moldova
+62,,Russian Federation,Russian Federation,Russia
 63,,Ukraine,Ukraine,Ukraine
 64,,High-income,High-income,HI
 70,,Australasia,Australasia,Australasia
@@ -92,12 +92,12 @@ location,type,name,medium_name,short_name
 35429,,Yamagata,Yamagata,Yamagata
 35458,,Yamaguchi,Yamaguchi,Yamaguchi
 35442,,Yamanashi,Yamanashi,Yamanashi
-68,,Republic of Korea,Republic of Korea,Republic of Korea
+68,,Republic of Korea,Republic of Korea,S Korea
 69,,Singapore,Singapore,Singapore
 100,,High-income North America,High-income North America,HI N Am
 101,,Canada,Canada,Canada
 349,,Greenland,Greenland,Greenland
-102,,United States of America,United States of America,United States of America
+102,,United States of America,United States of America,United States
 523,,Alabama,Alabama,Alabama
 524,,Alaska,Alaska,Alaska
 525,,Arizona,Arizona,Arizona
@@ -167,11 +167,48 @@ location,type,name,medium_name,short_name
 84,,Ireland,Ireland,Ireland
 85,,Israel,Israel,Israel
 86,,Italy,Italy,Italy
+95064,,Italy North-West,Italy North-West,Italy North-West
+35496,,Liguria,Liguria,Liguria
+35497,,Lombardia,Lombardia,Lombardia
+35494,,Piemonte,Piemonte,Piemonte
+35495,,Valle d'Aosta,Valle d'Aosta,Valle d'Aosta
+95065,,Italy North-East,Italy North-East,Italy North-East
+35502,,Emilia-Romagna,Emilia-Romagna,Emilia-Romagna
+35501,,Friuli-Venezia Giulia,Friuli-Venezia Giulia,Friuli-Venezia Giulia
+35498,,Provincia autonoma di Bolzano,Provincia autonoma di Bolzano,Prov. autonoma di Bolzano
+35499,,Provincia autonoma di Trento,Provincia autonoma di Trento,Prov. autonoma di Trento
+35500,,Veneto,Veneto,Veneto
+95066,,Italy Center,Italy Center,Italy Center
+35506,,Lazio,Lazio,Lazio
+35505,,Marche,Marche,Marche
+35503,,Toscana,Toscana,Toscana
+35504,,Umbria,Umbria,Umbria
+95067,,Italy South,Italy South,Italy South
+35507,,Abruzzo,Abruzzo,Abruzzo
+35511,,Basilicata,Basilicata,Basilicata
+35512,,Calabria,Calabria,Calabria
+35509,,Campania,Campania,Campania
+35508,,Molise,Molise,Molise
+35510,,Puglia,Puglia,Puglia
+95068,,Italy Islands,Italy Islands,Italy Islands
+35514,,Sardegna,Sardegna,Sardegna
+35513,,Sicilia,Sicilia,Sicilia
 87,,Luxembourg,Luxembourg,Luxembourg
 88,,Malta,Malta,Malta
 367,,Monaco,Monaco,Monaco
 89,,Netherlands,Netherlands,Netherlands
 90,,Norway,Norway,Norway
+60133,,Agder,Agder,Agder
+60135,,Innlandet,Innlandet,Innlandet
+4923,,Møre og Romsdal,Møre og Romsdal,More og Romsdal
+4926,,Nordland,Nordland,Nordland
+4910,,Oslo,Oslo,Oslo
+4920,,Rogaland,Rogaland,Rogaland
+60137,,Troms og Finnmark,Troms og Finnmark,Troms/Finnmark
+53432,,Trøndelag,Trøndelag,Trondelag
+60134,,Vestfold og Telemark,Vestfold og Telemark,Vestfold/Telemark
+60132,,Vestland,Vestland,Vestland
+60136,,Viken,Viken,Viken
 91,,Portugal,Portugal,Portugal
 396,,San Marino,San Marino,San Marino
 92,,Spain,Spain,Spain
@@ -345,7 +382,7 @@ location,type,name,medium_name,short_name
 4636,,Wales,Wales,Wales
 103,,Latin America and Caribbean,Latin America and Caribbean,Latin Am & Caribbean
 120,,Andean Latin America,Andean Latin America,Andean Latin Am
-121,,Bolivia (Plurinational State of),Bolivia (Plurinational State of),Bolivia (Plurinational Stat.
+121,,Bolivia (Plurinational State of),Bolivia (Plurinational State of),Bolivia
 122,,Ecuador,Ecuador,Ecuador
 123,,Peru,Peru,Peru
 104,,Caribbean,Caribbean,Caribbean
@@ -356,15 +393,15 @@ location,type,name,medium_name,short_name
 305,,Bermuda,Bermuda,Bermuda
 109,,Cuba,Cuba,Cuba
 110,,Dominica,Dominica,Dominica
-111,,Dominican Republic,Dominican Republic,Dominican Republic
+111,,Dominican Republic,Dominican Republic,Dominican Rep.
 112,,Grenada,Grenada,Grenada
 113,,Guyana,Guyana,Guyana
 114,,Haiti,Haiti,Haiti
 115,,Jamaica,Jamaica,Jamaica
 385,,Puerto Rico,Puerto Rico,Puerto Rico
-393,,Saint Kitts and Nevis,Saint Kitts and Nevis,Saint Kitts and Nevis
-116,,Saint Lucia,Saint Lucia,Saint Lucia
-117,,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,Saint Vincent and the Grena.
+393,,Saint Kitts and Nevis,Saint Kitts and Nevis,St. Kitts and Nevis
+116,,Saint Lucia,Saint Lucia,St. Lucia
+117,,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,St. Vincent and the Grenadines
 118,,Suriname,Suriname,Suriname
 119,,Trinidad and Tobago,Trinidad and Tobago,Trinidad and Tobago
 422,,United States Virgin Islands,United States Virgin Islands,Virgin Isl US
@@ -409,36 +446,41 @@ location,type,name,medium_name,short_name
 4674,,Zacatecas,Zacatecas,Zacatecas
 131,,Nicaragua,Nicaragua,Nicaragua
 132,,Panama,Panama,Panama
-133,,Venezuela (Bolivarian Republic of),Venezuela (Bolivarian Republic of),Venezuela (Bolivarian Repub.
+133,,Venezuela (Bolivarian Republic of),Venezuela (Bolivarian Republic of),Venezuela
 134,,Tropical Latin America,Tropical Latin America,Trop Latin Am
 135,,Brazil,Brazil,Brazil
+95078,,Brazil North,Brazil North,Brazil North
 4750,,Acre,Acre,Acre
-4751,,Alagoas,Alagoas,Alagoas
 4753,,Amapá,Amapá,Amapa
 4752,,Amazonas,Amazonas,Amazonas
-4754,,Bahia,Bahia,Bahia
-4755,,Ceará,Ceará,Ceara
-4756,,Distrito Federal,Distrito Federal,Distrito Federal
-4757,,Espírito Santo,Espírito Santo,Espirito Santo
-4758,,Goiás,Goiás,Goias
-4759,,Maranhão,Maranhão,Maranhao
-4762,,Mato Grosso,Mato Grosso,Mato Grosso
-4761,,Mato Grosso do Sul,Mato Grosso do Sul,Mato Grosso do Sul
-4760,,Minas Gerais,Minas Gerais,Minas Gerais
 4763,,Pará,Pará,Para
-4764,,Paraíba,Paraíba,Paraiba
-4765,,Paraná,Paraná,Parana
-4766,,Pernambuco,Pernambuco,Pernambuco
-4767,,Piaui,Piaui,Piaui
-4768,,Rio de Janeiro,Rio de Janeiro,Rio de Janeiro
-4769,,Rio Grande do Norte,Rio Grande do Norte,Rio Grande do Norte
-4772,,Rio Grande do Sul,Rio Grande do Sul,Rio Grande do Sul
 4770,,Rondônia,Rondônia,Rondonia
 4771,,Roraima,Roraima,Roraima
-4773,,Santa Catarina,Santa Catarina,Santa Catarina
-4775,,São Paulo,São Paulo,Sao Paulo
-4774,,Sergipe,Sergipe,Sergipe
 4776,,Tocantins,Tocantins,Tocantins
+95079,,Brazil Northeast,Brazil Northeast,Brazil Northeast
+4751,,Alagoas,Alagoas,Alagoas
+4754,,Bahia,Bahia,Bahia
+4755,,Ceará,Ceará,Ceara
+4759,,Maranhão,Maranhão,Maranhao
+4764,,Paraíba,Paraíba,Paraiba
+4766,,Pernambuco,Pernambuco,Pernambuco
+4767,,Piaui,Piaui,Piaui
+4769,,Rio Grande do Norte,Rio Grande do Norte,Rio Grande do Norte
+4774,,Sergipe,Sergipe,Sergipe
+95080,,Brazil Central-West,Brazil Central-West,Brazil Central-West
+4756,,Distrito Federal,Distrito Federal,Distrito Federal
+4758,,Goiás,Goiás,Goias
+4762,,Mato Grosso,Mato Grosso,Mato Grosso
+4761,,Mato Grosso do Sul,Mato Grosso do Sul,Mato Grosso do Sul
+95081,,Brazil South,Brazil South,Brazil South
+4765,,Paraná,Paraná,Parana
+4772,,Rio Grande do Sul,Rio Grande do Sul,Rio Grande do Sul
+4773,,Santa Catarina,Santa Catarina,Santa Catarina
+95082,,Brazil Southeast,Brazil Southeast,Brazil Southeast
+4757,,Espírito Santo,Espírito Santo,Espirito Santo
+4760,,Minas Gerais,Minas Gerais,Minas Gerais
+4768,,Rio de Janeiro,Rio de Janeiro,Rio de Janeiro
+4775,,São Paulo,São Paulo,Sao Paulo
 136,,Paraguay,Paraguay,Paraguay
 137,,North Africa and Middle East,North Africa and Middle East,MENA
 138,,North Africa and Middle East,North Africa and Middle East,MENA
@@ -446,7 +488,7 @@ location,type,name,medium_name,short_name
 139,,Algeria,Algeria,Algeria
 140,,Bahrain,Bahrain,Bahrain
 141,,Egypt,Egypt,Egypt
-142,,Iran (Islamic Republic of),Iran (Islamic Republic of),Iran (Islamic Republic of)
+142,,Iran (Islamic Republic of),Iran (Islamic Republic of),Iran
 44864,,Alborz,Alborz,Alborz
 44865,,Ardebil,Ardebil,Ardebil
 44868,,Bushehr,Bushehr,Bushehr
@@ -489,45 +531,76 @@ location,type,name,medium_name,short_name
 151,,Qatar,Qatar,Qatar
 152,,Saudi Arabia,Saudi Arabia,Saudi Arabia
 522,,Sudan,Sudan,Sudan
-153,,Syrian Arab Republic,Syrian Arab Republic,Syrian Arab Republic
+153,,Syrian Arab Republic,Syrian Arab Republic,Syria
 154,,Tunisia,Tunisia,Tunisia
-155,,Turkey,Turkey,Turkey
-156,,United Arab Emirates,United Arab Emirates,United Arab Emirates
+155,,Türkiye,Türkiye,Turkiye
+156,,United Arab Emirates,United Arab Emirates,UAE
 157,,Yemen,Yemen,Yemen
 158,,South Asia,South Asia,S Asia
 159,,South Asia,South Asia,S Asia
 161,,Bangladesh,Bangladesh,Bangladesh
 162,,Bhutan,Bhutan,Bhutan
 163,,India,India,India
+4841,,Andhra Pradesh,Andhra Pradesh,Andhra Pradesh
+4842,,Arunachal Pradesh,Arunachal Pradesh,Arunachal Pradesh
+4843,,Assam,Assam,Assam
+4844,,Bihar,Bihar,Bihar
+4846,,Chhattisgarh,Chhattisgarh,Chhattisgarh
+4849,,Delhi,Delhi,Delhi
+4850,,Goa,Goa,Goa
+4851,,Gujarat,Gujarat,Gujarat
+4852,,Haryana,Haryana,Haryana
+4853,,Himachal Pradesh,Himachal Pradesh,Himachal Pradesh
+4854,,Jammu & Kashmir and Ladakh,Jammu & Kashmir and Ladakh,Jammu & Kashmir & Ladakh
+4855,,Jharkhand,Jharkhand,Jharkhand
+4856,,Karnataka,Karnataka,Karnataka
+4857,,Kerala,Kerala,Kerala
+4859,,Madhya Pradesh,Madhya Pradesh,Madhya Pradesh
+4860,,Maharashtra,Maharashtra,Maharashtra
+4861,,Manipur,Manipur,Manipur
+4862,,Meghalaya,Meghalaya,Meghalaya
+4863,,Mizoram,Mizoram,Mizoram
+4864,,Nagaland,Nagaland,Nagaland
+4865,,Odisha,Odisha,Odisha
+44538,,Other Union Territories,Other Union Territories,Oth UTs
+4867,,Punjab,Punjab,Punjab
+4868,,Rajasthan,Rajasthan,Rajasthan
+4869,,Sikkim,Sikkim,Sikkim
+4870,,Tamil Nadu,Tamil Nadu,Tamil Nadu
+4871,,Telangana,Telangana,Telangana
+4872,,Tripura,Tripura,Tripura
+4873,,Uttar Pradesh,Uttar Pradesh,Uttar Pradesh
+4874,,Uttarakhand,Uttarakhand,Uttarakhand
+4875,,West Bengal,West Bengal,W Bengal
 164,,Nepal,Nepal,Nepal
 165,,Pakistan,Pakistan,Pakistan
 53615,,Azad Jammu & Kashmir,Azad Jammu & Kashmir,Azad Jammu & Kashmir
 53616,,Balochistan,Balochistan,Balochistan
 53617,,Gilgit-Baltistan,Gilgit-Baltistan,Gilgit-Baltistan
-53618,,Islamabad Capital Territory,Islamabad Capital Territory,Islamabad Capital Territory
+53618,,Islamabad Capital Territory,Islamabad Capital Territory,Islamabad
 53619,,Khyber Pakhtunkhwa,Khyber Pakhtunkhwa,KPK
 53620,,Punjab,Punjab,Punjab
 53621,,Sindh,Sindh,Sindh
 4,,"Southeast Asia, East Asia, and Oceania","Southeast Asia, East Asia, and Oceania",SE & E Asia & Oceania
 5,,East Asia,East Asia,E Asia
 6,,China,China,China
-7,,Democratic People's Republic of Korea,Democratic People's Republic of Korea,Korea (Democratic People's.
+7,,Democratic People's Republic of Korea,Democratic People's Republic of Korea,N Korea
 8,,Taiwan (Province of China),Taiwan (Province of China),Taiwan (Province of China)
 21,,Oceania,Oceania,Oceania
-298,,American Samoa,American Samoa,Am Somoa
+298,,American Samoa,American Samoa,Am Samoa
 320,,Cook Islands,Cook Islands,Cook Islands
 22,,Fiji,Fiji,Fiji
 351,,Guam,Guam,Guam
 23,,Kiribati,Kiribati,Kiribati
 24,,Marshall Islands,Marshall Islands,Marshall Islands
-25,,Micronesia (Federated States of),Micronesia (Federated States of),Micronesia (Federated State.
+25,,Micronesia (Federated States of),Micronesia (Federated States of),Micronesia
 369,,Nauru,Nauru,Nauru
 374,,Niue,Niue,Niue
 376,,Northern Mariana Islands,Northern Mariana Islands,N Mariana
 380,,Palau,Palau,Palau
 26,,Papua New Guinea,Papua New Guinea,Papua New Guinea
 27,,Samoa,Samoa,Samoa
-28,,Solomon Islands,Solomon Islands,Solomon Islands
+28,,Solomon Islands,Solomon Islands,Solomon Is.
 413,,Tokelau,Tokelau,Tokelau
 29,,Tonga,Tonga,Tonga
 416,,Tuvalu,Tuvalu,Tuvalu
@@ -569,7 +642,7 @@ location,type,name,medium_name,short_name
 4714,,South Sumatra,South Sumatra,S Sumatra
 4710,,North Sumatra,North Sumatra,N Sumatra
 4723,,Yogyakarta,Yogyakarta,Yogyakarta
-12,,Lao People's Democratic Republic,Lao People's Democratic Republic,Lao People's Democratic Rep.
+12,,Lao People's Democratic Republic,Lao People's Democratic Republic,Laos
 13,,Malaysia,Malaysia,Malaysia
 14,,Maldives,Maldives,Maldives
 183,,Mauritius,Mauritius,Mauritius
@@ -583,10 +656,10 @@ location,type,name,medium_name,short_name
 166,,Sub-Saharan Africa,Sub-Saharan Africa,Sub-Sah Africa
 167,,Central Sub-Saharan Africa,Central Sub-Saharan Africa,C Sub-Sah Africa
 168,,Angola,Angola,Angola
-169,,Central African Republic,Central African Republic,Central African Republic
+169,,Central African Republic,Central African Republic,CAR
 170,,Congo,Congo,Congo
-171,,Democratic Republic of the Congo,Democratic Republic of the Congo,Congo (Democratic Republic.
-172,,Equatorial Guinea,Equatorial Guinea,Equatorial Guinea
+171,,Democratic Republic of the Congo,Democratic Republic of the Congo,DRC
+172,,Equatorial Guinea,Equatorial Guinea,Eq. Guinea
 173,,Gabon,Gabon,Gabon
 174,,Eastern Sub-Saharan Africa,Eastern Sub-Saharan Africa,E Sub-Sah Africa
 175,,Burundi,Burundi,Burundi
@@ -613,7 +686,7 @@ location,type,name,medium_name,short_name
 35621,,Elgeyo-Marakwet,Elgeyo-Marakwet,Elgeyo-Marakwet
 35622,,Embu,Embu,Embu
 35623,,Garissa,Garissa,Garissa
-35624,,HomaBay,HomaBay,HomaBay
+35624,,Homa Bay,Homa Bay,Homa Bay
 35625,,Isiolo,Isiolo,Isiolo
 35626,,Kajiado,Kajiado,Kajiado
 35627,,Kakamega,Kakamega,Kakamega
@@ -644,15 +717,15 @@ location,type,name,medium_name,short_name
 35652,,Nyeri,Nyeri,Nyeri
 35653,,Samburu,Samburu,Samburu
 35654,,Siaya,Siaya,Siaya
-35655,,TaitaTaveta,TaitaTaveta,TaitaTaveta
-35656,,TanaRiver,TanaRiver,TanaRiver
-35657,,TharakaNithi,TharakaNithi,TharakaNithi
-35658,,TransNzoia,TransNzoia,TransNzoia
+35655,,Taita Taveta,Taita Taveta,Taita Taveta
+35656,,Tana River,Tana River,Tana River
+35657,,Tharaka Nithi,Tharaka Nithi,Tharaka Nithi
+35658,,Trans Nzoia,Trans Nzoia,Trans Nzoia
 35659,,Turkana,Turkana,Turkana
-35660,,UasinGishu,UasinGishu,UasinGishu
+35660,,Uasin Gishu,Uasin Gishu,Uasin Gishu
 35661,,Vihiga,Vihiga,Vihiga
 35662,,Wajir,Wajir,Wajir
-35663,,WestPokot,WestPokot,WestPokot
+35663,,West Pokot,West Pokot,West Pokot
 181,,Madagascar,Madagascar,Madagascar
 182,,Malawi,Malawi,Malawi
 184,,Mozambique,Mozambique,Mozambique
@@ -660,14 +733,14 @@ location,type,name,medium_name,short_name
 187,,Somalia,Somalia,Somalia
 435,,South Sudan,South Sudan,South Sudan
 190,,Uganda,Uganda,Uganda
-189,,United Republic of Tanzania,United Republic of Tanzania,United Republic of Tanzania
+189,,United Republic of Tanzania,United Republic of Tanzania,Tanzania
 191,,Zambia,Zambia,Zambia
 192,,Southern Sub-Saharan Africa,Southern Sub-Saharan Africa,S Sub-Sah Africa
 193,,Botswana,Botswana,Botswana
 197,,Eswatini,Eswatini,Eswatini
 194,,Lesotho,Lesotho,Lesotho
 195,,Namibia,Namibia,Namibia
-196,,South Africa,South Africa,South Africa
+196,,South Africa,South Africa,S. Africa
 482,,Eastern Cape,Eastern Cape,E Cape
 483,,Free State,Free State,Free State
 484,,Gauteng,Gauteng,Gauteng
@@ -699,6 +772,12 @@ location,type,name,medium_name,short_name
 217,,Sierra Leone,Sierra Leone,Sierra Leone
 218,,Togo,Togo,Togo
 44587,,African Union,African Union,AU
+94365,,Central Africa,Central Africa,Central Africa
+248,,Eastern Africa,Eastern Africa,E Africa
+254,,Northern Africa,Northern Africa,N Africa
+261,,Southern Africa,Southern Africa,S Africa
+263,,Western Africa,Western Africa,W Africa
+94216,,Association of Southeast Asian Nations,Association of Southeast Asian Nations,ASEAN
 44534,,Commonwealth,Commonwealth,Commonwealth
 44535,,Commonwealth High Income,Commonwealth High Income,Commonwealth HI
 44536,,Commonwealth Middle Income,Commonwealth Middle Income,Commonwealth MI
@@ -710,8 +789,14 @@ location,type,name,medium_name,short_name
 44561,,Asia,Asia,Asia
 44562,,Europe,Europe,Europe
 44586,,G20,G20,G20
+94217,,Gulf Cooperation Council,Gulf Cooperation Council,GCC
+4745,,League of Arab States,League of Arab States,League of Arab States
 44642,,Nordic Region,Nordic Region,Nordic Region
 44584,,OECD Countries,OECD Countries,OECD
+94215,,Organization of Islamic Cooperation,Organization of Islamic Cooperation,IOC
+94366,,Sahel Region,Sahel Region,Sahel Region
+94367,,Ethiopia (Sahel),Ethiopia (Sahel),Ethiopia (Sahel)
+94368,,Nigeria (Sahel),Nigeria (Sahel),Nigeria (Sahel)
 479,,WHO region,WHO region,WHO Region
 44563,,African Region,African Region,Afr Region
 44567,,Eastern Mediterranean Region,Eastern Mediterranean Region,E Med Region
@@ -719,11 +804,6 @@ location,type,name,medium_name,short_name
 44564,,Region of the Americas,Region of the Americas,Region Americas
 44565,,South-East Asia Region,South-East Asia Region,SE Asia Region
 44568,,Western Pacific Region,Western Pacific Region,W Pac Region
-44591,,World Bank Income Levels,World Bank Income Levels,WB Income
-44575,,World Bank High Income,World Bank High Income,WB HI
-44578,,World Bank Low Income,World Bank Low Income,WB LI
-44577,,World Bank Lower Middle Income,World Bank Lower Middle Income,WB LMI
-44576,,World Bank Upper Middle Income,World Bank Upper Middle Income,WB UMI
 478,,World Bank Regions,World Bank Regions,WB Region
 239,,East Asia & Pacific - WB,East Asia & Pacific - WB,E Asia & Pac WB
 240,,Europe & Central Asia - WB,Europe & Central Asia - WB,Europe & Cen Asia WB
@@ -732,3 +812,326 @@ location,type,name,medium_name,short_name
 44638,,North America,North America,N America
 244,,South Asia - WB,South Asia - WB,S Asia WB
 242,,Sub-Saharan Africa - WB,Sub-Saharan Africa - WB,Sub-Sah Africa WB
+95471,,Health System Grouping Levels,Health System Grouping Levels,Health System Grouping Levels
+95467,,Advanced Health System,Advanced Health System,Advanced
+44971,,Altai kray,Altai kray,Altai
+44983,,Amur oblast,Amur oblast,Amur
+44924,,Arkhangelsk oblast without Nenets autonomous district,Arkhangelsk oblast without Nenets autonomous district,Arkhangelsk w/o nenets
+44936,,Astrakhan oblast,Astrakhan oblast,Astrakhan
+44903,,Belgorod oblast,Belgorod oblast,Belgorod
+44904,,Bryansk oblast,Bryansk oblast,Bryansk
+44945,,Chechen Republic,Chechen Republic,Chechen
+44966,,Chelyabinsk oblast,Chelyabinsk oblast,Chelyabinsk
+44987,,Chukotka Autonomous Area,Chukotka Autonomous Area,Chukotka
+44952,,Chuvash Republic,Chuvash Republic,Chuvash
+53660,,Dolnośląskie,Dolnośląskie,Dolnoslaskie
+44974,,Irkutsk oblast,Irkutsk oblast,Irkutsk
+44907,,Ivanovo oblast,Ivanovo oblast,Ivanovo
+44986,,Jewish autonomous oblast,Jewish autonomous oblast,Jewish
+44942,,Kabardino-Balkar Republic,Kabardino-Balkar Republic,Kabardino
+44926,,Kaliningrad oblast,Kaliningrad oblast,Kaliningrad
+44908,,Kaluga oblast,Kaluga oblast,Kaluga
+44980,,Kamchatka kray,Kamchatka kray,Kamchatka
+44943,,Karachay-Cherkess Republic,Karachay-Cherkess Republic,Karachay
+44975,,Kemerovo oblast,Kemerovo oblast,Kemerovo
+44982,,Khabarovsk kray,Khabarovsk kray,Khabarovsk
+44963,,Khanty-Mansi autonomous area,Khanty-Mansi autonomous area,Khanty
+44954,,Kirov oblast,Kirov oblast,Kirov
+44922,,Komi Republic,Komi Republic,Komi
+44909,,Kostroma oblast,Kostroma oblast,Kostroma
+44935,,Krasnodar kray,Krasnodar kray,Krasnodar
+44973,,Krasnoyarsk kray,Krasnoyarsk kray,Krasnoyarsk
+53661,,Kujawsko-Pomorskie,Kujawsko-Pomorskie,Kujawsko-Pomorskie
+44961,,Kurgan oblast,Kurgan oblast,Kurgan
+44910,,Kursk oblast,Kursk oblast,Kursk
+44927,,Leningrad oblast,Leningrad oblast,Leningrad
+44911,,Lipetzk oblast,Lipetzk oblast,Lipetzk
+53662,,Łódzkie,Łódzkie,Lodzkie
+53663,,Lubelskie,Lubelskie,Lubelskie
+53664,,Lubuskie,Lubuskie,Lubuskie
+44984,,Magadan oblast,Magadan oblast,Magadan
+53665,,Małopolskie,Małopolskie,Malopolskie
+53666,,Mazowieckie,Mazowieckie,Mazowieckie
+44920,,Moscow City,Moscow City,Moscow City
+44912,,Moscow oblast,Moscow oblast,Moskva
+44928,,Murmansk oblast,Murmansk oblast,Murmansk
+44923,,Nenets autonomous district,Nenets autonomous district,Nenets
+44850,,New Zealand Maori population,New Zealand Maori population,NZ Maori
+44851,,New Zealand non-Maori population,New Zealand non-Maori population,NZ non-Maori
+44955,,Nizhny Novgorod oblast,Nizhny Novgorod oblast,Nizhny
+44929,,Novgorod oblast,Novgorod oblast,Novgorod
+44976,,Novosibirsk oblast,Novosibirsk oblast,Novosibirsk
+44977,,Omsk oblast,Omsk oblast,Omsk
+53667,,Opolskie,Opolskie,Opolskie
+44956,,Orenburg oblast,Orenburg oblast,Orenburg
+44913,,Oryol oblast,Oryol oblast,Oryol
+44957,,Penza oblast,Penza oblast,Penza
+44953,,Perm kray,Perm kray,Perm
+53668,,Podkarpackie,Podkarpackie,Podkarpackie
+53669,,Podlaskie,Podlaskie,Podlaskie
+53670,,Pomorskie,Pomorskie,Pomorskie
+44981,,Primorsky kray,Primorsky kray,Primorsky
+44930,,Pskov oblast,Pskov oblast,Pskov
+44932,,Republic of Adygeya,Republic of Adygeya,Adygeya
+44967,,Republic of Altai,Republic of Altai,Altai
+44947,,Republic of Bashkortostan,Republic of Bashkortostan,Bashkortostan
+44968,,Republic of Buryatia,Republic of Buryatia,Buryatia
+44934,,Republic of Crimea,Republic of Crimea,Crimea
+44940,,Republic of Dagestan,Republic of Dagestan,Dagestan
+44941,,Republic of Ingushetia,Republic of Ingushetia,Ingushetia
+44933,,Republic of Kalmykia,Republic of Kalmykia,Kalmykia
+44921,,Republic of Karelia,Republic of Karelia,Karelia
+44970,,Republic of Khakassia,Republic of Khakassia,Khakassia
+44948,,Republic of Mari El,Republic of Mari El,Mari El
+44949,,Republic of Mordovia,Republic of Mordovia,Mordovia
+44944,,Republic of North Ossetia-Alania,Republic of North Ossetia-Alania,Alania
+44979,,Republic of Sakha (Yakutia),Republic of Sakha (Yakutia),Sakha
+44950,,Republic of Tatarstan,Republic of Tatarstan,Tatarstan
+44969,,Republic of Tuva,Republic of Tuva,Tuva
+44938,,Rostov oblast,Rostov oblast,Rostov
+44914,,Ryazan oblast,Ryazan oblast,Ryazan
+44931,,Saint Petersburg,Saint Petersburg,St. Petersburg
+44985,,Sakhalin oblast,Sakhalin oblast,Sakhalin
+44958,,Samara oblast,Samara oblast,Samara
+44959,,Saratov oblast,Saratov oblast,Saratov
+44939,,Sevastopol,Sevastopol,Sevastopol
+53671,,Śląskie,Śląskie,Slaskie
+44915,,Smolensk oblast,Smolensk oblast,Smolensk
+44946,,Stavropol kray,Stavropol kray,Stavropol
+44962,,Sverdlovsk oblast,Sverdlovsk oblast,Sverdlovsk
+53672,,Świętokrzyskie,Świętokrzyskie,Swietokrzyskie
+44916,,Tambov oblast,Tambov oblast,Tambov
+44978,,Tomsk oblast,Tomsk oblast,Tomsk
+44918,,Tula oblast,Tula oblast,Tula
+44917,,Tver oblast,Tver oblast,Tver
+44965,,Tyumen oblast without autonomous areas,Tyumen oblast without autonomous areas,Tyumen w/o auto
+44951,,Udmurt Republic,Udmurt Republic,Udmurt
+50559,,Ukraine (without Crimea & Sevastopol),Ukraine (without Crimea & Sevastopol),Ukraine no Crimea & Sevastopol
+44960,,Ulyanovsk oblast,Ulyanovsk oblast,Ulyanovsk
+44905,,Vladimir oblast,Vladimir oblast,Vladimir
+44937,,Volgograd oblast,Volgograd oblast,Volgograd
+44925,,Vologda oblast,Vologda oblast,Vologda
+44906,,Voronezh oblast,Voronezh oblast,Voronezh
+53673,,Warmińsko-Mazurskie,Warmińsko-Mazurskie,Warminsko-Mazurskie
+53674,,Wielkopolskie,Wielkopolskie,Wielkopolskie
+44964,,Yamalo-Nenets autonomous area,Yamalo-Nenets autonomous area,Yamalo
+44919,,Yaroslavl oblast,Yaroslavl oblast,Yaroslavl
+44972,,Zabaikalsk kray,Zabaikalsk kray,Zabaikalsk
+53675,,Zachodniopomorskie,Zachodniopomorskie,Zachodniopomorskie
+95468,,Basic Health System,Basic Health System,Basic
+53536,,Abra,Abra,Abra
+53604,,Agusan Del Norte,Agusan Del Norte,Agusan Del Norte
+53605,,Agusan Del Sur,Agusan Del Sur,Agusan Del Sur
+53572,,Aklan,Aklan,Aklan
+53568,,Albay,Albay,Albay
+491,,Anhui,Anhui,Anhui
+53573,,Antique,Antique,Antique
+53537,,Apayao,Apayao,Apayao
+53554,,Aurora,Aurora,Aurora
+53610,,Basilan,Basilan,Basilan
+53548,,Bataan,Bataan,Bataan
+53547,,Batanes,Batanes,Batanes
+53558,,Batangas,Batangas,Batangas
+492,,Beijing,Beijing,Beijing
+53535,,Benguet,Benguet,Benguet
+53586,,Biliran,Biliran,Biliran
+53579,,Bohol,Bohol,Bohol
+53591,,Bukidnon,Bukidnon,Bukidnon
+53552,,Bulacan,Bulacan,Bulacan
+53544,,Cagayan,Cagayan,Cagayan
+53566,,Camarines Norte,Camarines Norte,Camarines Norte
+53570,,Camarines Sur,Camarines Sur,Camarines Sur
+53594,,Camiguin,Camiguin,Camiguin
+53571,,Capiz,Capiz,Capiz
+53565,,Catanduanes,Catanduanes,Catanduanes
+53556,,Cavite,Cavite,Cavite
+53578,,Cebu,Cebu,Cebu
+493,,Chongqing,Chongqing,Chongqing
+53602,,Cotabato (North Cotabato),Cotabato (North Cotabato),Cotabato (North Cotabato)
+53596,,Davao de Oro,Davao de Oro,Davao de Oro
+53599,,Davao Del Norte,Davao Del Norte,Davao Del Norte
+53597,,Davao Del Sur,Davao Del Sur,Davao Del Sur
+53598,,Davao Occidental,Davao Occidental,Davao Occidental
+53595,,Davao Oriental,Davao Oriental,Davao Oriental
+53608,,Dinagat Islands,Dinagat Islands,Dinagat Islands
+53582,,Eastern Samar,Eastern Samar,Eastern Samar
+494,,Fujian,Fujian,Fujian
+495,,Gansu,Gansu,Gansu
+496,,Guangdong,Guangdong,Guangdong
+497,,Guangxi,Guangxi,Guangxi
+53576,,Guimaras,Guimaras,Guimaras
+498,,Guizhou,Guizhou,Guizhou
+499,,Hainan,Hainan,Hainan
+500,,Hebei,Hebei,Hebei
+501,,Heilongjiang,Heilongjiang,Heilongjiang
+502,,Henan,Henan,Henan
+354,,Hong Kong Special Administrative Region of China,Hong Kong Special Administrative Region of China,Hong Kong
+503,,Hubei,Hubei,Hubei
+504,,Hunan,Hunan,Hunan
+53534,,Ifugao,Ifugao,Ifugao
+53540,,Ilocos Norte,Ilocos Norte,Ilocos Norte
+53541,,Ilocos Sur,Ilocos Sur,Ilocos Sur
+53575,,Iloilo,Iloilo,Iloilo
+505,,Inner Mongolia,Inner Mongolia,Inner Mongolia
+53545,,Isabela,Isabela,Isabela
+506,,Jiangsu,Jiangsu,Jiangsu
+507,,Jiangxi,Jiangxi,Jiangxi
+508,,Jilin,Jilin,Jilin
+53538,,Kalinga,Kalinga,Kalinga
+53539,,La Union,La Union,La Union
+53557,,Laguna,Laguna,Laguna
+53592,,Lanao Del Norte,Lanao Del Norte,Lanao Del Norte
+53613,,Lanao Del Sur,Lanao Del Sur,Lanao Del Sur
+53585,,Leyte,Leyte,Leyte
+509,,Liaoning,Liaoning,Liaoning
+361,,Macao Special Administrative Region of China,Macao Special Administrative Region of China,Macao
+53612,,Maguindanao,Maguindanao,Maguindanao
+53564,,Marinduque,Marinduque,Marinduque
+53569,,Masbate,Masbate,Masbate
+53590,,Misamis Occidental,Misamis Occidental,Misamis Occidental
+53593,,Misamis Oriental,Misamis Oriental,Misamis Oriental
+53533,,Mountain Province,Mountain Province,Mountain Province
+53614,,National Capital Region,National Capital Region,National Capital Region
+53574,,Negros Occidental,Negros Occidental,Negros Occidental
+53577,,Negros Oriental,Negros Oriental,Negros Oriental
+510,,Ningxia,Ningxia,Ningxia
+53583,,Northern Samar,Northern Samar,Northern Samar
+53553,,Nueva Ecija,Nueva Ecija,Nueva Ecija
+53543,,Nueva Vizcaya,Nueva Vizcaya,Nueva Vizcaya
+53560,,Occidental Mindoro,Occidental Mindoro,Occidental Mindoro
+53561,,Oriental Mindoro,Oriental Mindoro,Oriental Mindoro
+53563,,Palawan,Palawan,Palawan
+53551,,Pampanga,Pampanga,Pampanga
+53542,,Pangasinan,Pangasinan,Pangasinan
+511,,Qinghai,Qinghai,Qinghai
+53559,,Quezon,Quezon,Quezon
+53546,,Quirino,Quirino,Quirino
+53555,,Rizal,Rizal,Rizal
+53562,,Romblon,Romblon,Romblon
+53584,,Samar (Western Samar),Samar (Western Samar),Samar (Western Samar)
+53603,,Sarangani,Sarangani,Sarangani
+512,,Shaanxi,Shaanxi,Shaanxi
+513,,Shandong,Shandong,Shandong
+514,,Shanghai,Shanghai,Shanghai
+515,,Shanxi,Shanxi,Shanxi
+516,,Sichuan,Sichuan,Sichuan
+53580,,Siquijor,Siquijor,Siquijor
+53567,,Sorsogon,Sorsogon,Sorsogon
+53600,,South Cotabato,South Cotabato,South Cotabato
+53581,,Southern Leyte,Southern Leyte,Southern Leyte
+53601,,Sultan Kudarat,Sultan Kudarat,Sultan Kudarat
+53611,,Sulu,Sulu,Sulu
+53607,,Surigao Del Norte,Surigao Del Norte,Surigao Del Norte
+53606,,Surigao Del Sur,Surigao Del Sur,Surigao Del Sur
+53550,,Tarlac,Tarlac,Tarlac
+53609,,Tawi-Tawi,Tawi-Tawi,Tawi-Tawi
+517,,Tianjin,Tianjin,Tianjin
+518,,Tibet,Tibet,Tibet
+519,,Xinjiang,Xinjiang,Xinjiang
+520,,Yunnan,Yunnan,Yunnan
+53549,,Zambales,Zambales,Zambales
+53588,,Zamboanga Del Norte,Zamboanga Del Norte,Zamboanga Del Norte
+53589,,Zamboanga Del Sur,Zamboanga Del Sur,Zamboanga Del Sur
+53587,,Zamboanga Sibugay,Zamboanga Sibugay,Zamboanga Sibugay
+521,,Zhejiang,Zhejiang,Zhejiang
+95469,,Limited Health System,Limited Health System,Limited
+25318,,Abia,Abia,Abia
+25319,,Adamawa,Adamawa,Adamawa
+25320,,Akwa Ibom,Akwa Ibom,Akwa Ibom
+25321,,Anambra,Anambra,Anambra
+43908,,"Andhra Pradesh, Rural","Andhra Pradesh, Rural",Andhra Pradesh R
+43872,,"Andhra Pradesh, Urban","Andhra Pradesh, Urban",Andhra Pradesh U
+43909,,"Arunachal Pradesh, Rural","Arunachal Pradesh, Rural",Arunachal Pradesh R
+43873,,"Arunachal Pradesh, Urban","Arunachal Pradesh, Urban",Arunachal Pradesh U
+43910,,"Assam, Rural","Assam, Rural",Assam R
+43874,,"Assam, Urban","Assam, Urban",Assam U
+25322,,Bauchi,Bauchi,Bauchi
+25323,,Bayelsa,Bayelsa,Bayelsa
+25324,,Benue,Benue,Benue
+43911,,"Bihar, Rural","Bihar, Rural",Bihar R
+43875,,"Bihar, Urban","Bihar, Urban",Bihar U
+25325,,Borno,Borno,Borno
+43913,,"Chhattisgarh, Rural","Chhattisgarh, Rural",Chhattisgarh R
+43877,,"Chhattisgarh, Urban","Chhattisgarh, Urban",Chhattisgarh U
+25326,,Cross River,Cross River,Cross River
+43916,,"Delhi, Rural","Delhi, Rural",Delhi R
+43880,,"Delhi, Urban","Delhi, Urban",Delhi U
+25327,,Delta,Delta,Delta
+25328,,Ebonyi,Ebonyi,Ebonyi
+25329,,Edo,Edo,Edo
+25330,,Ekiti,Ekiti,Ekiti
+25331,,Enugu,Enugu,Enugu
+25332,,FCT (Abuja),FCT (Abuja),FCT (Abuja)
+43917,,"Goa, Rural","Goa, Rural",Goa R
+43881,,"Goa, Urban","Goa, Urban",Goa U
+25333,,Gombe,Gombe,Gombe
+43918,,"Gujarat, Rural","Gujarat, Rural",Gujarat R
+43882,,"Gujarat, Urban","Gujarat, Urban",Gujarat U
+43919,,"Haryana, Rural","Haryana, Rural",Haryana R
+43883,,"Haryana, Urban","Haryana, Urban",Haryana U
+43920,,"Himachal Pradesh, Rural","Himachal Pradesh, Rural",Himachal Pradesh R
+43884,,"Himachal Pradesh, Urban","Himachal Pradesh, Urban",Himachal Pradesh U
+25334,,Imo,Imo,Imo
+43921,,"Jammu & Kashmir and Ladakh, Rural","Jammu & Kashmir and Ladakh, Rural",Jammu & Kashmir & Ladakh R
+43885,,"Jammu & Kashmir and Ladakh, Urban","Jammu & Kashmir and Ladakh, Urban",Jammu & Kashmir & Ladakh U
+43922,,"Jharkhand, Rural","Jharkhand, Rural",Jharkhand R
+43886,,"Jharkhand, Urban","Jharkhand, Urban",Jharkhand U
+25335,,Jigawa,Jigawa,Jigawa
+25336,,Kaduna,Kaduna,Kaduna
+25337,,Kano,Kano,Kano
+43923,,"Karnataka, Rural","Karnataka, Rural",Karnataka R
+43887,,"Karnataka, Urban","Karnataka, Urban",Karnataka U
+25338,,Katsina,Katsina,Katsina
+25339,,Kebbi,Kebbi,Kebbi
+43924,,"Kerala, Rural","Kerala, Rural",Kerala R
+43888,,"Kerala, Urban","Kerala, Urban",Kerala U
+25340,,Kogi,Kogi,Kogi
+25341,,Kwara,Kwara,Kwara
+25342,,Lagos,Lagos,Lagos
+43926,,"Madhya Pradesh, Rural","Madhya Pradesh, Rural",Madhya Pradesh R
+43890,,"Madhya Pradesh, Urban","Madhya Pradesh, Urban",Madhya Pradesh U
+43927,,"Maharashtra, Rural","Maharashtra, Rural",Maharashtra R
+43891,,"Maharashtra, Urban","Maharashtra, Urban",Maharashtra U
+43928,,"Manipur, Rural","Manipur, Rural",Manipur R
+43892,,"Manipur, Urban","Manipur, Urban",Manipur U
+43929,,"Meghalaya, Rural","Meghalaya, Rural",Meghalaya R
+43893,,"Meghalaya, Urban","Meghalaya, Urban",Meghalaya U
+43930,,"Mizoram, Rural","Mizoram, Rural",Mizoram R
+43894,,"Mizoram, Urban","Mizoram, Urban",Mizoram U
+43931,,"Nagaland, Rural","Nagaland, Rural",Nagaland R
+43895,,"Nagaland, Urban","Nagaland, Urban",Nagaland U
+25343,,Nasarawa,Nasarawa,Nasarawa
+25344,,Niger,Niger,Niger
+43932,,"Odisha, Rural","Odisha, Rural",Odisha R
+43896,,"Odisha, Urban","Odisha, Urban",Odisha U
+25345,,Ogun,Ogun,Ogun
+25346,,Ondo,Ondo,Ondo
+25347,,Osun,Osun,Osun
+44539,,"Other Union Territories, Rural","Other Union Territories, Rural","Oth UTs, R"
+44540,,"Other Union Territories, Urban","Other Union Territories, Urban","Oth UTs, U"
+25348,,Oyo,Oyo,Oyo
+25349,,Plateau,Plateau,Plateau
+43934,,"Punjab, Rural","Punjab, Rural",Punjab R
+43898,,"Punjab, Urban","Punjab, Urban",Punjab U
+43935,,"Rajasthan, Rural","Rajasthan, Rural",Rajasthan R
+43899,,"Rajasthan, Urban","Rajasthan, Urban",Rajasthan U
+25350,,Rivers,Rivers,Rivers
+43936,,"Sikkim, Rural","Sikkim, Rural",Sikkim R
+43900,,"Sikkim, Urban","Sikkim, Urban",Sikkim U
+25351,,Sokoto,Sokoto,Sokoto
+43937,,"Tamil Nadu, Rural","Tamil Nadu, Rural",Tamil Nadu R
+43901,,"Tamil Nadu, Urban","Tamil Nadu, Urban",Tamil Nadu U
+25352,,Taraba,Taraba,Taraba
+43938,,"Telangana, Rural","Telangana, Rural",Telangana R
+43902,,"Telangana, Urban","Telangana, Urban",Telangana U
+43939,,"Tripura, Rural","Tripura, Rural",Tripura R
+43903,,"Tripura, Urban","Tripura, Urban",Tripura U
+43940,,"Uttar Pradesh, Rural","Uttar Pradesh, Rural",Uttar Pradesh R
+43904,,"Uttar Pradesh, Urban","Uttar Pradesh, Urban",Uttar Pradesh U
+43941,,"Uttarakhand, Rural","Uttarakhand, Rural",Uttarakhand R
+43905,,"Uttarakhand, Urban","Uttarakhand, Urban",Uttarakhand U
+43942,,"West Bengal, Rural","West Bengal, Rural",W Bengal R
+43906,,"West Bengal, Urban","West Bengal, Urban",W Bengal U
+25353,,Yobe,Yobe,Yobe
+25354,,Zamfara,Zamfara,Zamfara
+95470,,Minimal Health System,Minimal Health System,Minimal

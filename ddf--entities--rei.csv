@@ -1,174 +1,189 @@
 rei,type,name,short_name
 362,injury n-codes,Injuries,Injuries
+191,impairment,Impairments,Impairments
 171,etiology,Etiologies,Etiologies
 169,risk,All risk factors,All risk factors
-191,impairment,Impairments,Impairments
-192,impairment,Anemia,Anemia
-173,etiology,Cholera,Cholera
-202,risk,Environmental/occupational risks,Environmental
 298,injury n-codes,Amputations,N_amputations
-82,risk,"Unsafe water, sanitation, and handwashing",WaSH
-250,injury n-codes,"Amputation of lower limbs, bilateral",N1
-174,etiology,Non-typhoidal Salmonella,Non-typhoidal Salmonella
-205,impairment,Mild anemia,Mild anemia
-261,injury n-codes,"Amputation of upper limbs, bilateral",N2
-175,etiology,Shigella,Shigella
-83,risk,Unsafe water source,Unsafe water
-206,impairment,Moderate anemia,Moderate anemia
-84,risk,Unsafe sanitation,Unsafe sanitation
-207,impairment,Severe anemia,Severe anemia
-272,injury n-codes,Amputation of fingers (excluding thumb),N3
-176,etiology,Enteropathogenic E coli,Enteropathogenic E coli
-238,risk,No access to handwashing facility,Handwashing
-283,injury n-codes,"Amputation of lower limb, unilateral",N4
-177,etiology,Enterotoxigenic E coli,Enterotoxigenic E coli
-193,impairment,Epilepsy,Epilepsy
-178,etiology,Campylobacter,Campylobacter
-293,injury n-codes,"Amputation of upper limb, unilateral",N5
-85,risk,Air pollution,Air pollution
-208,impairment,Treated epilepsy,Treated epilepsy
-179,etiology,Entamoeba,Entamoeba
-294,injury n-codes,Amputation of thumb,N6
-209,impairment,Moderate epilepsy,Moderate epilepsy
-380,risk,Particulate matter pollution,Particulate matter
-86,risk,Ambient particulate matter pollution,Ambient particulate matter
-295,injury n-codes,Amputation of toe/toes,N7
-210,impairment,Severe epilepsy,Severe epilepsy
-180,etiology,Cryptosporidium,Cryptosporidium
-87,risk,Household air pollution from solid fuels,Household air pollution
-181,etiology,Rotavirus,Rotavirus
-299,injury n-codes,Burns,N_burns
-194,impairment,Guillain-Barré syndrome,Guillain-Barré syndrome
-195,impairment,Hearing loss,Hearing loss
+192,impairment,Anemia,Anemia
+185,etiology,Adenovirus,Adenovirus
+202,risk,Environmental/occupational risks,Environmental
 182,etiology,Aeromonas,Aeromonas
-88,risk,Ambient ozone pollution,Ozone
-251,injury n-codes,Lower airway burns,N10
-296,injury n-codes,"Burns, <20% total burned surface area without lower airway burns",N8
-331,risk,Non-optimal temperature,Non-optimal temperature
-211,impairment,Mild hearing loss,Mild hearing loss
+250,injury n-codes,"Amputation of lower limbs, bilateral",N1
+82,risk,"Unsafe water, sanitation, and handwashing",WaSH
+205,impairment,Mild anemia,Mild anemia
+432,impairment,Moderate and Severe Anemia,Moderate and Severe Anemia
+83,risk,Unsafe water source,Unsafe water
+179,etiology,Entamoeba,Entamoeba
+206,impairment,Moderate anemia,Moderate anemia
+261,injury n-codes,"Amputation of upper limbs, bilateral",N2
+207,impairment,Severe anemia,Severe anemia
+173,etiology,Cholera,Cholera
+272,injury n-codes,Amputation of fingers (excluding thumb),N3
+84,risk,Unsafe sanitation,Unsafe sanitation
 183,etiology,Clostridium difficile,Clostridium difficile
-337,risk,High temperature,High temperature
-297,injury n-codes,"Burns, >=20% total burned surface area or >= 10% burned surface area if head/neck or hands/wrist involved w/o lower airway burns",N9
+283,injury n-codes,"Amputation of lower limb, unilateral",N4
+193,impairment,Epilepsy,Epilepsy
+238,risk,No access to handwashing facility,Handwashing
+293,injury n-codes,"Amputation of upper limb, unilateral",N5
+180,etiology,Cryptosporidium,Cryptosporidium
+85,risk,Air pollution,Air pollution
+194,impairment,Guillain-Barré syndrome,Guillain-Barré syndrome
+178,etiology,Campylobacter,Campylobacter
+294,injury n-codes,Amputation of thumb,N6
+195,impairment,Hearing loss,Hearing loss
+380,risk,Particulate matter pollution,Particulate matter
+176,etiology,Enteropathogenic E coli,Enteropathogenic E coli
+86,risk,Ambient particulate matter pollution,Ambient particulate matter
+211,impairment,Mild hearing loss,Mild hearing loss
+295,injury n-codes,Amputation of toe/toes,N7
+177,etiology,Enterotoxigenic E coli,Enterotoxigenic E coli
+299,injury n-codes,Burns,N_burns
+87,risk,Household air pollution from solid fuels,Household air pollution
 212,impairment,Moderate hearing loss,Moderate hearing loss
 184,etiology,Norovirus,Norovirus
-185,etiology,Adenovirus,Adenovirus
-338,risk,Low temperature,Low temperature
-300,injury n-codes,Fractures,N_fractures
+88,risk,Ambient ozone pollution,Ozone
 213,impairment,Moderately severe hearing loss,Moderately severe hearing loss
-89,risk,Other environmental risks,Other environmental
-256,injury n-codes,"Fracture of clavicle, scapula, or humerus",N15
+251,injury n-codes,Lower airway burns,N10
+181,etiology,Rotavirus,Rotavirus
+296,injury n-codes,"Burns, <20% total burned surface area without lower airway burns",N8
 214,impairment,Severe hearing loss,Severe hearing loss
-187,etiology,Influenza,Influenza
-257,injury n-codes,Fracture of face bones,N16
-90,risk,Residential radon,Radon
+404,risk,Nitrogen dioxide pollution,NO2 pollution
+174,etiology,Non-typhoidal Salmonella,Non-typhoidal Salmonella
+297,injury n-codes,"Burns, >=20% total burned surface area or >= 10% burned surface area if head/neck or hands/wrist involved w/o lower airway burns",N9
 215,impairment,Profound hearing loss,Profound hearing loss
-188,etiology,Pneumococcus,Pneumococcus
+331,risk,Non-optimal temperature,Non-optimal temperature
+175,etiology,Shigella,Shigella
+300,injury n-codes,Fractures,N_fractures
 216,impairment,Complete hearing loss,Complete hearing loss
-189,etiology,H influenzae type B,H influenzae type B
-258,injury n-codes,Fracture of foot bones except ankle,N17
-91,risk,Lead exposure,Lead
-126,risk,Occupational risks,Occupational risks
-190,etiology,Respiratory syncytial virus,Respiratory syncytial virus
+337,risk,High temperature,High temperature
 196,impairment,Heart failure,Heart failure
-259,injury n-codes,Fracture of hand (wrist and other distal part of hand),N18
-386,etiology,Meningococcal meningitis,Mng Men
-127,risk,Occupational carcinogens,Occupational carcinogens
-260,injury n-codes,Fracture of hip,N19
+256,injury n-codes,"Fracture of clavicle, scapula, or humerus",N15
+414,etiology,Acinetobacter baumannii,A baumannii
+338,risk,Low temperature,Low temperature
+415,etiology,Chlamydia spp,Chlamydia spp
+257,injury n-codes,Fracture of face bones,N16
+89,risk,Other environmental risks,Other environmental
 379,impairment,Treated heart failure,Treated heart failure
-262,injury n-codes,"Fracture of patella, tibia or fibula, or ankle",N20
+416,etiology,Enterobacter spp,Enterobacter spp
+258,injury n-codes,Fracture of foot bones except ankle,N17
 217,impairment,Mild heart failure,Mild heart failure
-150,risk,Occupational exposure to asbestos,Occupational asbestos
-263,injury n-codes,Fracture of pelvis,N21
-151,risk,Occupational exposure to arsenic,Occupational arsenic
+90,risk,Residential radon,Radon
+417,etiology,Escherichia coli,E Coli
 218,impairment,Moderate heart failure,Moderate heart failure
-264,injury n-codes,Fracture of radius and/or ulna,N22
+91,risk,Lead exposure,Lead
+259,injury n-codes,Fracture of hand (wrist and other distal part of hand),N18
+418,etiology,Fungus,Fungus
 219,impairment,Severe heart failure,Severe heart failure
-152,risk,Occupational exposure to benzene,Occupational benzene
+260,injury n-codes,Fracture of hip,N19
+126,risk,Occupational risks,Occupational risks
+393,etiology,Group B streptococcus,GBS
 198,impairment,Infertility,Infertility
+262,injury n-codes,"Fracture of patella, tibia or fibula, or ankle",N20
+127,risk,Occupational carcinogens,Occupational carcinogens
+263,injury n-codes,Fracture of pelvis,N21
+419,etiology,Haemophilus influenzae,H influenzae
+220,impairment,Primary infertility,Primary infertility
+150,risk,Occupational exposure to asbestos,Occupational asbestos
+187,etiology,Influenza,Influenza
+264,injury n-codes,Fracture of radius and/or ulna,N22
+151,risk,Occupational exposure to arsenic,Occupational arsenic
+221,impairment,Secondary infertility,Secondary infertility
+152,risk,Occupational exposure to benzene,Occupational benzene
+420,etiology,Klebsiella pneumoniae,K pneumoniae
+197,impairment,Developmental intellectual disability,Intellectual disability
 265,injury n-codes,Fracture of skull,N23
 153,risk,Occupational exposure to beryllium,Occupational beryllium
-220,impairment,Primary infertility,Primary infertility
-154,risk,Occupational exposure to cadmium,Occupational cadmium
-266,injury n-codes,Fracture of sternum and/or fracture of one or more ribs,N24
-221,impairment,Secondary infertility,Secondary infertility
-155,risk,Occupational exposure to chromium,Occupational chromium
-267,injury n-codes,Fracture of vertebral column,N25
-156,risk,Occupational exposure to diesel engine exhaust,Occupational diesel
-268,injury n-codes,"Fracture of femur, other than femoral neck",N26
-197,impairment,Developmental intellectual disability,Intellectual disability
-158,risk,Occupational exposure to formaldehyde,Occupational formaldehyde
+421,etiology,Legionella spp,Legionella spp
 236,impairment,Borderline intellectual disability,Borderline intellectual disability
-301,injury n-codes,Head Injuries,N_head_injuries
-159,risk,Occupational exposure to nickel,Occupational nickel
+266,injury n-codes,Fracture of sternum and/or fracture of one or more ribs,N24
 222,impairment,Mild intellectual disability,Mild intellectual disability
-269,injury n-codes,Minor TBI,N27
-160,risk,Occupational exposure to polycyclic aromatic hydrocarbons,Occupational PAH
-270,injury n-codes,Moderate/Severe TBI,N28
+154,risk,Occupational exposure to cadmium,Occupational cadmium
+423,etiology,Mycoplasma,Mycoplasma
+267,injury n-codes,Fracture of vertebral column,N25
 223,impairment,Moderate intellectual disability,Moderate intellectual disability
-161,risk,Occupational exposure to silica,Occupational silica
+155,risk,Occupational exposure to chromium,Occupational chromium
+268,injury n-codes,"Fracture of femur, other than femoral neck",N26
+424,etiology,Other bacterial pathogen,Other bacteria
 224,impairment,Severe intellectual disability,Severe intellectual disability
-302,injury n-codes,Spinal Injuries,N_spinal_injuries
-276,injury n-codes,Spinal cord lesion at neck level,N33
-162,risk,Occupational exposure to sulfuric acid,Occupational sulfuric acid
+301,injury n-codes,Head Injuries,N_head_injuries
+425,etiology,Other viral etiologies of LRI,Other virus
+156,risk,Occupational exposure to diesel engine exhaust,Occupational diesel
+269,injury n-codes,Minor TBI,N27
 225,impairment,Profound intellectual disability,Profound intellectual disability
+158,risk,Occupational exposure to formaldehyde,Occupational formaldehyde
+426,etiology,Polymicrobial,Polymicrobial
+270,injury n-codes,Moderate/Severe TBI,N28
+159,risk,Occupational exposure to nickel,Occupational nickel
 199,impairment,Pelvic inflammatory disease,Pelvic inflammatory
-277,injury n-codes,Spinal cord lesion below neck level,N34
-237,risk,Occupational exposure to trichloroethylene,Occupational trichloroethylene
-128,risk,Occupational asthmagens,Occupational asthmagens
-303,injury n-codes,Minor Injuries,N_minor_injuries
+427,etiology,Pseudomonas aeruginosa,P aeruginosa
+302,injury n-codes,Spinal Injuries,N_spinal_injuries
 226,impairment,Moderate pelvic inflammatory disease,Moderate pelvic inflammatory disease
-129,risk,"Occupational particulate matter, gases, and fumes",Occupational particulates
+160,risk,Occupational exposure to polycyclic aromatic hydrocarbons,Occupational PAH
+190,etiology,Respiratory syncytial virus,Respiratory syncytial virus
 227,impairment,Severe pelvic inflammatory disease,Severe pelvic inflammatory disease
-255,injury n-codes,"Muscle and tendon injuries, including sprains and strains lesser dislocations",N14
-130,risk,Occupational noise,Occupational noise
-273,injury n-codes,Foreign body in ear,N30
+161,risk,Occupational exposure to silica,Occupational silica
+428,etiology,Staphylococcus aureus,Staph aureus
+276,injury n-codes,Spinal cord lesion at neck level,N33
 200,impairment,Blindness and vision loss,Blindness
-284,injury n-codes,Open wound(s),N40
+162,risk,Occupational exposure to sulfuric acid,Occupational sulfuric acid
+430,etiology,Streptococcus pneumoniae,Strep pneumoniae
+277,injury n-codes,Spinal cord lesion below neck level,N34
+422,etiology,Listeria monocytogenes,L monocytogenes
 233,impairment,Presbyopia,Presbyopia
+237,risk,Occupational exposure to trichloroethylene,Occupational trichloroethylene
+303,injury n-codes,Minor Injuries,N_minor_injuries
+431,etiology,Neisseria meningitidis,N meningitidis
+229,impairment,Moderate vision loss,Moderate vision loss
+128,risk,Occupational asthmagens,Occupational asthmagens
+255,injury n-codes,"Muscle and tendon injuries, including sprains and strains lesser dislocations",N14
+129,risk,"Occupational particulate matter, gases, and fumes",Occupational particulates
+273,injury n-codes,Foreign body in ear,N30
+429,etiology,Viral etiologies of meningitis,Virus
+230,impairment,Severe vision loss,Severe vision loss
+130,risk,Occupational noise,Occupational noise
+231,impairment,Blindness,Blindness
+284,injury n-codes,Open wound(s),N40
+288,injury n-codes,Contusion in any part of the body,N44
 131,risk,Occupational injuries,Occupational injury
 132,risk,Occupational ergonomic factors,Occupational ergonomic
-229,impairment,Moderate vision loss,Moderate vision loss
-288,injury n-codes,Contusion in any part of the body,N44
-203,risk,Behavioral risks,Behavioral
-230,impairment,Severe vision loss,Severe vision loss
 291,injury n-codes,Superficial injury of any part of the body,N47
+203,risk,Behavioral risks,Behavioral
 304,injury n-codes,Other Injuries,N_other_injuries
 92,risk,Child and maternal malnutrition,Malnutrition
-231,impairment,Blindness,Blindness
 252,injury n-codes,Dislocation of hip,N11
 93,risk,Suboptimal breastfeeding,Suboptimal breastfeeding
-136,risk,Non-exclusive breastfeeding,Non-exclusive breastfeeding
 253,injury n-codes,Dislocation of knee,N12
-137,risk,Discontinued breastfeeding,Discontinued breastfeeding
 254,injury n-codes,Dislocation of shoulder,N13
+136,risk,Non-exclusive breastfeeding,Non-exclusive breastfeeding
 274,injury n-codes,Foreign body in respiratory system,N31
-239,risk,Child growth failure,Child growth failure
-94,risk,Child underweight,Child underweight
+137,risk,Discontinued breastfeeding,Discontinued breastfeeding
 275,injury n-codes,Foreign body in GI and urogenital system,N32
+239,risk,Child growth failure,Child growth failure
 278,injury n-codes,Drowning and nonfatal submersion,N35
-240,risk,Child wasting,Child wasting
-241,risk,Child stunting,Child stunting
+94,risk,Child underweight,Child underweight
 279,injury n-codes,Asphyxiation,N36
-339,risk,Low birth weight and short gestation,Low birth weight & short gestation
+240,risk,Child wasting,Child wasting
 280,injury n-codes,Crush injury,N37
-334,risk,Short gestation,Short gestation
+241,risk,Child stunting,Child stunting
 281,injury n-codes,Nerve injury,N38
+339,risk,Low birth weight and short gestation,Low birth weight & short gestation
+334,risk,Short gestation,Short gestation
 282,injury n-codes,Injury to eyes,N39
 335,risk,Low birth weight,Low birth weight
-95,risk,Iron deficiency,Iron deficiency
 285,injury n-codes,Poisoning requiring urgent care,N41
-96,risk,Vitamin A deficiency,Vitamin A deficiency
 286,injury n-codes,Severe chest Injury,N42
+95,risk,Iron deficiency,Iron deficiency
 287,injury n-codes,Internal hemorrhage in abdomen and pelvis,N43
+96,risk,Vitamin A deficiency,Vitamin A deficiency
 97,risk,Zinc deficiency,Zinc deficiency
-98,risk,Tobacco,Tobacco
 289,injury n-codes,Effect of different environmental factors,N45
+98,risk,Tobacco,Tobacco
 290,injury n-codes,Complications following therapeutic procedures,N46
 99,risk,Smoking,Smoking
-332,risk,Chewing tobacco,Chewing tobacco
 292,injury n-codes,"Multiple fractures, dislocations, crashes, wounds, pains, and strains",N48
+332,risk,Chewing tobacco,Chewing tobacco
 100,risk,Secondhand smoke,Secondhand smoke
-102,risk,Alcohol use,Alcohol use
+102,risk,High alcohol use,High alcohol use
 103,risk,Drug use,Drug use
 110,risk,Dietary risks,Dietary risks
 111,risk,Diet low in fruits,Low fruit
@@ -183,7 +198,7 @@ rei,type,name,short_name
 119,risk,Diet low in fiber,Low fiber
 147,risk,Diet low in calcium,Low calcium
 121,risk,Diet low in seafood omega-3 fatty acids,Low omega-3
-122,risk,Diet low in polyunsaturated fatty acids,Low PUFA
+122,risk,Diet low in omega-6 polyunsaturated fatty acids,Low omega-6
 123,risk,Diet high in trans fatty acids,High trans fat
 124,risk,Diet high in sodium,High sodium
 135,risk,Intimate partner violence,Intimate partner violence
