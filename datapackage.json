@@ -1,14 +1,9 @@
 {
-    "name": "ddf--ihme--death_cause_compact",
     "language": {
-        "id": "en"
+        "name": "English",
+        "id": "en-US"
     },
-    "title": "ddf--ihme--death_cause_compact",
-    "description": "",
-    "author": "",
-    "license": "",
-    "created": "2022-05-14T15:40:00.754299+00:00",
-    "id": "compact_death_cause",
+    "created": "2025-07-11T08:07:19.897Z",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -25,7 +20,9 @@
                         "name": "concept_type"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -43,7 +40,124 @@
                         "name": "concept_type"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--age",
+            "path": "ddf--entities--age.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "age"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "short_name"
+                    },
+                    {
+                        "name": "type"
+                    }
+                ],
+                "primaryKey": [
+                    "age"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--cause",
+            "path": "ddf--entities--cause.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "cause"
+                    },
+                    {
+                        "name": "label"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "medium_name"
+                    },
+                    {
+                        "name": "short_name"
+                    }
+                ],
+                "primaryKey": [
+                    "cause"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--location",
+            "path": "ddf--entities--location.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "type"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "medium_name"
+                    },
+                    {
+                        "name": "short_name"
+                    }
+                ],
+                "primaryKey": [
+                    "location"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--rei",
+            "path": "ddf--entities--rei.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "rei"
+                    },
+                    {
+                        "name": "type"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "short_name"
+                    }
+                ],
+                "primaryKey": [
+                    "rei"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--sex",
+            "path": "ddf--entities--sex.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "sex"
+                ]
             }
         },
         {
@@ -501,111 +615,6 @@
                     "year"
                 ]
             }
-        },
-        {
-            "name": "ddf--entities--age",
-            "path": "ddf--entities--age.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "name"
-                    },
-                    {
-                        "name": "short_name"
-                    },
-                    {
-                        "name": "type"
-                    }
-                ],
-                "primaryKey": "age"
-            }
-        },
-        {
-            "name": "ddf--entities--cause",
-            "path": "ddf--entities--cause.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "cause"
-                    },
-                    {
-                        "name": "label"
-                    },
-                    {
-                        "name": "name"
-                    },
-                    {
-                        "name": "medium_name"
-                    },
-                    {
-                        "name": "short_name"
-                    }
-                ],
-                "primaryKey": "cause"
-            }
-        },
-        {
-            "name": "ddf--entities--location",
-            "path": "ddf--entities--location.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "location"
-                    },
-                    {
-                        "name": "type"
-                    },
-                    {
-                        "name": "name"
-                    },
-                    {
-                        "name": "medium_name"
-                    },
-                    {
-                        "name": "short_name"
-                    }
-                ],
-                "primaryKey": "location"
-            }
-        },
-        {
-            "name": "ddf--entities--rei",
-            "path": "ddf--entities--rei.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "rei"
-                    },
-                    {
-                        "name": "type"
-                    },
-                    {
-                        "name": "name"
-                    },
-                    {
-                        "name": "short_name"
-                    }
-                ],
-                "primaryKey": "rei"
-            }
-        },
-        {
-            "name": "ddf--entities--sex",
-            "path": "ddf--entities--sex.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "sex"
-                    },
-                    {
-                        "name": "name"
-                    }
-                ],
-                "primaryKey": "sex"
-            }
         }
     ],
     "ddfSchema": {
@@ -616,8 +625,8 @@
                 ],
                 "value": "concept_type",
                 "resources": [
-                    "ddf--concepts--continuous",
-                    "ddf--concepts--discrete"
+                    "ddf--concepts--discrete",
+                    "ddf--concepts--continuous"
                 ]
             },
             {
@@ -626,12 +635,39 @@
                 ],
                 "value": "name",
                 "resources": [
-                    "ddf--concepts--continuous",
-                    "ddf--concepts--discrete"
+                    "ddf--concepts--discrete",
+                    "ddf--concepts--continuous"
                 ]
             }
         ],
         "entities": [
+            {
+                "primaryKey": [
+                    "age"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--age"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age"
+                ],
+                "value": "short_name",
+                "resources": [
+                    "ddf--entities--age"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "age"
+                ],
+                "value": "type",
+                "resources": [
+                    "ddf--entities--age"
+                ]
+            },
             {
                 "primaryKey": [
                     "cause"
@@ -652,24 +688,6 @@
             },
             {
                 "primaryKey": [
-                    "location"
-                ],
-                "value": "medium_name",
-                "resources": [
-                    "ddf--entities--location"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "age"
-                ],
-                "value": "name",
-                "resources": [
-                    "ddf--entities--age"
-                ]
-            },
-            {
-                "primaryKey": [
                     "cause"
                 ],
                 "value": "name",
@@ -679,6 +697,24 @@
             },
             {
                 "primaryKey": [
+                    "cause"
+                ],
+                "value": "short_name",
+                "resources": [
+                    "ddf--entities--cause"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location"
+                ],
+                "value": "medium_name",
+                "resources": [
+                    "ddf--entities--location"
+                ]
+            },
+            {
+                "primaryKey": [
                     "location"
                 ],
                 "value": "name",
@@ -688,9 +724,45 @@
             },
             {
                 "primaryKey": [
+                    "location"
+                ],
+                "value": "short_name",
+                "resources": [
+                    "ddf--entities--location"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location"
+                ],
+                "value": "type",
+                "resources": [
+                    "ddf--entities--location"
+                ]
+            },
+            {
+                "primaryKey": [
                     "rei"
                 ],
                 "value": "name",
+                "resources": [
+                    "ddf--entities--rei"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "rei"
+                ],
+                "value": "short_name",
+                "resources": [
+                    "ddf--entities--rei"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "rei"
+                ],
+                "value": "type",
                 "resources": [
                     "ddf--entities--rei"
                 ]
@@ -702,69 +774,6 @@
                 "value": "name",
                 "resources": [
                     "ddf--entities--sex"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "age"
-                ],
-                "value": "short_name",
-                "resources": [
-                    "ddf--entities--age"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "cause"
-                ],
-                "value": "short_name",
-                "resources": [
-                    "ddf--entities--cause"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "location"
-                ],
-                "value": "short_name",
-                "resources": [
-                    "ddf--entities--location"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "rei"
-                ],
-                "value": "short_name",
-                "resources": [
-                    "ddf--entities--rei"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "age"
-                ],
-                "value": "type",
-                "resources": [
-                    "ddf--entities--age"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "location"
-                ],
-                "value": "type",
-                "resources": [
-                    "ddf--entities--location"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "rei"
-                ],
-                "value": "type",
-                "resources": [
-                    "ddf--entities--rei"
                 ]
             }
         ],
@@ -779,9 +788,9 @@
                 ],
                 "value": "deaths_number",
                 "resources": [
-                    "ddf--datapoints--deaths_number--by--sex-1--age--cause--location--year",
+                    "ddf--datapoints--deaths_number--by--sex-3--age--cause--location--year",
                     "ddf--datapoints--deaths_number--by--sex-2--age--cause--location--year",
-                    "ddf--datapoints--deaths_number--by--sex-3--age--cause--location--year"
+                    "ddf--datapoints--deaths_number--by--sex-1--age--cause--location--year"
                 ]
             },
             {
@@ -794,9 +803,9 @@
                 ],
                 "value": "deaths_rate",
                 "resources": [
-                    "ddf--datapoints--deaths_rate--by--sex-1--age--cause--location--year",
+                    "ddf--datapoints--deaths_rate--by--sex-3--age--cause--location--year",
                     "ddf--datapoints--deaths_rate--by--sex-2--age--cause--location--year",
-                    "ddf--datapoints--deaths_rate--by--sex-3--age--cause--location--year"
+                    "ddf--datapoints--deaths_rate--by--sex-1--age--cause--location--year"
                 ]
             },
             {
@@ -809,9 +818,9 @@
                 ],
                 "value": "incidence_number",
                 "resources": [
-                    "ddf--datapoints--incidence_number--by--sex-1--age--cause--location--year",
+                    "ddf--datapoints--incidence_number--by--sex-3--age--cause--location--year",
                     "ddf--datapoints--incidence_number--by--sex-2--age--cause--location--year",
-                    "ddf--datapoints--incidence_number--by--sex-3--age--cause--location--year"
+                    "ddf--datapoints--incidence_number--by--sex-1--age--cause--location--year"
                 ]
             },
             {
@@ -824,9 +833,9 @@
                 ],
                 "value": "incidence_rate",
                 "resources": [
-                    "ddf--datapoints--incidence_rate--by--sex-1--age--cause--location--year",
+                    "ddf--datapoints--incidence_rate--by--sex-3--age--cause--location--year",
                     "ddf--datapoints--incidence_rate--by--sex-2--age--cause--location--year",
-                    "ddf--datapoints--incidence_rate--by--sex-3--age--cause--location--year"
+                    "ddf--datapoints--incidence_rate--by--sex-1--age--cause--location--year"
                 ]
             }
         ],

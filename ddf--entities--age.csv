@@ -1,24 +1,24 @@
 age,name,short_name,type
 22,All ages,All,specific
-27,Age-standardized,NULL,specific
+27,Age-standardized,,specific
 164,Birth,Birth,specific
 2,0-6 days,EN,specific
 3,7-27 days,LN,specific
 42,<28 days,NN,specific
-4,28-364 days,PN,specific
-172,0-9 years,0-9,specific
-39,0-14 years,NULL,specific
+388,1-5 months,1-5 mo.,specific
+389,6-11 months,6-11 mo.,specific
+238,12-23 months,12-23 mo.,specific
+39,0-14 years,,specific
 28,<1 year,<1,specific
-5,1-4 years,1,specific
 34,2-4 years,2-4,specific
 1,<5 years,<5,specific
 6,5-9 years,5,specific
 23,5-14 years,5-14,specific
 188,5-19 years,5-19,specific
 7,10-14 years,10,specific
-162,10-19 years,NULL,specific
+162,10-19 years,,specific
 159,10-24 years,10-24,specific
-169,10 - 54 years,NULL,specific
+169,10 - 54 years,,specific
 8,15-19 years,15,specific
 197,15-39 years,15-39,specific
 24,15-49 years,15-49,specific
@@ -26,10 +26,10 @@ age,name,short_name,type
 158,<20 years,<20,specific
 9,20-24 years,20,specific
 284,20-54 years,20-54,specific
-37,20+ years,NULL,specific
+37,20+ years,,specific
 10,25-29 years,25,specific
 206,25-49 years,25-49,specific
-157,25+ years,NULL,specific
+157,25+ years,,specific
 11,30-34 years,30,specific
 12,35-39 years,35,specific
 215,35-54 years,35-54,specific
@@ -40,21 +40,15 @@ age,name,short_name,type
 25,50-69 years,50-69,specific
 41,50-74 years,50-74,specific
 16,55-59 years,55,specific
-285,55-89 years,55-89,specific
 228,55+ years,55+,specific
 17,60-64 years,60,specific
-230,60-79 years,60-79,specific
-286,60-89 years,60-89,specific
 18,65-69 years,65,specific
 232,65-74 years,65-74,specific
-287,65-89 years,65-89,specific
 420,<70 years,<70,specific
 19,70-74 years,70,specific
-288,70-89 years,70-89,specific
 26,70+ years,70+,specific
 20,75-79 years,75,specific
 243,75-84 years,75,specific
-289,75-94 years,75-94,specific
 234,75+ years,75+,specific
 30,80-84 years,80,specific
 21,80+ years,80,specific
@@ -63,8 +57,8 @@ age,name,short_name,type
 32,90-94 years,90,specific
 33,95-99 years,95,specific
 235,95+ years,95+,specific
-44,100-104 years,NULL,specific
-45,105-109 years,NULL,specific
+44,100-104 years,,specific
+45,105-109 years,,specific
 148,110+ years,110,specific
 49,1,1,specific
 50,2,2,specific
