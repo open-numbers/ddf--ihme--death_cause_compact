@@ -1,13 +1,8 @@
 concept,name,concept_type
-age,Age,entity_domain
 cause,Cause,entity_domain
-label,Label,string
 location,Location,entity_domain
-long_name,Long Name,string
-medium_name,Medium Name,string
+measure,Measure,entity_domain
+metric,Metric,entity_domain
 name,Name,string
-rei,Risk/Etiology/Impairment,entity_domain
 sex,Sex,entity_domain
-short_name,Short Name,string
-type,Type,string
 year,Year,time

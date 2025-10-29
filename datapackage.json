@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-07-11T08:07:19.897Z",
+    "created": "2025-10-29T02:47:04.924Z",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -46,29 +46,6 @@
             }
         },
         {
-            "name": "ddf--entities--age",
-            "path": "ddf--entities--age.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "name"
-                    },
-                    {
-                        "name": "short_name"
-                    },
-                    {
-                        "name": "type"
-                    }
-                ],
-                "primaryKey": [
-                    "age"
-                ]
-            }
-        },
-        {
             "name": "ddf--entities--cause",
             "path": "ddf--entities--cause.csv",
             "schema": {
@@ -77,16 +54,7 @@
                         "name": "cause"
                     },
                     {
-                        "name": "label"
-                    },
-                    {
                         "name": "name"
-                    },
-                    {
-                        "name": "medium_name"
-                    },
-                    {
-                        "name": "short_name"
                     }
                 ],
                 "primaryKey": [
@@ -103,16 +71,7 @@
                         "name": "location"
                     },
                     {
-                        "name": "type"
-                    },
-                    {
                         "name": "name"
-                    },
-                    {
-                        "name": "medium_name"
-                    },
-                    {
-                        "name": "short_name"
                     }
                 ],
                 "primaryKey": [
@@ -121,25 +80,36 @@
             }
         },
         {
-            "name": "ddf--entities--rei",
-            "path": "ddf--entities--rei.csv",
+            "name": "ddf--entities--measure",
+            "path": "ddf--entities--measure.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "rei"
-                    },
-                    {
-                        "name": "type"
+                        "name": "measure"
                     },
                     {
                         "name": "name"
-                    },
-                    {
-                        "name": "short_name"
                     }
                 ],
                 "primaryKey": [
-                    "rei"
+                    "measure"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--metric",
+            "path": "ddf--entities--metric.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "metric"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "metric"
                 ]
             }
         },
@@ -161,457 +131,201 @@
             }
         },
         {
-            "name": "ddf--datapoints--deaths_number--by--sex-1--age--cause--location--year",
-            "path": "ddf--datapoints--deaths_number--by--sex-1--age--cause--location--year.csv",
+            "name": "ddf--datapoints--breast_cancer_deaths_number_all_ages--by--location--sex--year",
+            "path": "ddf--datapoints--breast_cancer_deaths_number_all_ages--by--location--sex--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "1"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
                         "name": "location"
+                    },
+                    {
+                        "name": "sex"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "deaths_number"
+                        "name": "breast_cancer_deaths_number_all_ages"
                     }
                 ],
                 "primaryKey": [
-                    "sex",
-                    "age",
-                    "cause",
                     "location",
+                    "sex",
                     "year"
                 ]
             }
         },
         {
-            "name": "ddf--datapoints--deaths_number--by--sex-2--age--cause--location--year",
-            "path": "ddf--datapoints--deaths_number--by--sex-2--age--cause--location--year.csv",
+            "name": "ddf--datapoints--breast_cancer_deaths_rate_age_standardized--by--location--sex--year",
+            "path": "ddf--datapoints--breast_cancer_deaths_rate_age_standardized--by--location--sex--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "2"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
                         "name": "location"
+                    },
+                    {
+                        "name": "sex"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "deaths_number"
+                        "name": "breast_cancer_deaths_rate_age_standardized"
                     }
                 ],
                 "primaryKey": [
-                    "sex",
-                    "age",
-                    "cause",
                     "location",
+                    "sex",
                     "year"
                 ]
             }
         },
         {
-            "name": "ddf--datapoints--deaths_number--by--sex-3--age--cause--location--year",
-            "path": "ddf--datapoints--deaths_number--by--sex-3--age--cause--location--year.csv",
+            "name": "ddf--datapoints--breast_cancer_deaths_rate_all_ages--by--location--sex--year",
+            "path": "ddf--datapoints--breast_cancer_deaths_rate_all_ages--by--location--sex--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "3"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
                         "name": "location"
+                    },
+                    {
+                        "name": "sex"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "deaths_number"
+                        "name": "breast_cancer_deaths_rate_all_ages"
                     }
                 ],
                 "primaryKey": [
-                    "sex",
-                    "age",
-                    "cause",
                     "location",
+                    "sex",
                     "year"
                 ]
             }
         },
         {
-            "name": "ddf--datapoints--deaths_rate--by--sex-1--age--cause--location--year",
-            "path": "ddf--datapoints--deaths_rate--by--sex-1--age--cause--location--year.csv",
+            "name": "ddf--datapoints--breast_cancer_incidence_number_all_ages--by--location--sex--year",
+            "path": "ddf--datapoints--breast_cancer_incidence_number_all_ages--by--location--sex--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "1"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
                         "name": "location"
+                    },
+                    {
+                        "name": "sex"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "deaths_rate"
+                        "name": "breast_cancer_incidence_number_all_ages"
                     }
                 ],
                 "primaryKey": [
-                    "sex",
-                    "age",
-                    "cause",
                     "location",
+                    "sex",
                     "year"
                 ]
             }
         },
         {
-            "name": "ddf--datapoints--deaths_rate--by--sex-2--age--cause--location--year",
-            "path": "ddf--datapoints--deaths_rate--by--sex-2--age--cause--location--year.csv",
+            "name": "ddf--datapoints--breast_cancer_incidence_rate_age_standardized--by--location--sex--year",
+            "path": "ddf--datapoints--breast_cancer_incidence_rate_age_standardized--by--location--sex--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "2"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
                         "name": "location"
+                    },
+                    {
+                        "name": "sex"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "deaths_rate"
+                        "name": "breast_cancer_incidence_rate_age_standardized"
                     }
                 ],
                 "primaryKey": [
-                    "sex",
-                    "age",
-                    "cause",
                     "location",
+                    "sex",
                     "year"
                 ]
             }
         },
         {
-            "name": "ddf--datapoints--deaths_rate--by--sex-3--age--cause--location--year",
-            "path": "ddf--datapoints--deaths_rate--by--sex-3--age--cause--location--year.csv",
+            "name": "ddf--datapoints--breast_cancer_incidence_rate_all_ages--by--location--sex--year",
+            "path": "ddf--datapoints--breast_cancer_incidence_rate_all_ages--by--location--sex--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "3"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
                         "name": "location"
+                    },
+                    {
+                        "name": "sex"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "deaths_rate"
+                        "name": "breast_cancer_incidence_rate_all_ages"
                     }
                 ],
                 "primaryKey": [
-                    "sex",
-                    "age",
-                    "cause",
                     "location",
+                    "sex",
                     "year"
                 ]
             }
         },
         {
-            "name": "ddf--datapoints--incidence_number--by--sex-1--age--cause--location--year",
-            "path": "ddf--datapoints--incidence_number--by--sex-1--age--cause--location--year.csv",
+            "name": "ddf--datapoints--fire_heat_and_hot_substances_deaths_rate_age_standardized--by--location--sex--year",
+            "path": "ddf--datapoints--fire_heat_and_hot_substances_deaths_rate_age_standardized--by--location--sex--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "1"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
                         "name": "location"
+                    },
+                    {
+                        "name": "sex"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "incidence_number"
+                        "name": "fire_heat_and_hot_substances_deaths_rate_age_standardized"
                     }
                 ],
                 "primaryKey": [
-                    "sex",
-                    "age",
-                    "cause",
                     "location",
+                    "sex",
                     "year"
                 ]
             }
         },
         {
-            "name": "ddf--datapoints--incidence_number--by--sex-2--age--cause--location--year",
-            "path": "ddf--datapoints--incidence_number--by--sex-2--age--cause--location--year.csv",
+            "name": "ddf--datapoints--motor_vehicle_road_injuries_deaths_rate_age_standardized--by--location--sex--year",
+            "path": "ddf--datapoints--motor_vehicle_road_injuries_deaths_rate_age_standardized--by--location--sex--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "2"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
                         "name": "location"
+                    },
+                    {
+                        "name": "sex"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "incidence_number"
+                        "name": "motor_vehicle_road_injuries_deaths_rate_age_standardized"
                     }
                 ],
                 "primaryKey": [
-                    "sex",
-                    "age",
-                    "cause",
                     "location",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--incidence_number--by--sex-3--age--cause--location--year",
-            "path": "ddf--datapoints--incidence_number--by--sex-3--age--cause--location--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "3"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
-                        "name": "location"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "incidence_number"
-                    }
-                ],
-                "primaryKey": [
                     "sex",
-                    "age",
-                    "cause",
-                    "location",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--incidence_rate--by--sex-1--age--cause--location--year",
-            "path": "ddf--datapoints--incidence_rate--by--sex-1--age--cause--location--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "1"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
-                        "name": "location"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "incidence_rate"
-                    }
-                ],
-                "primaryKey": [
-                    "sex",
-                    "age",
-                    "cause",
-                    "location",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--incidence_rate--by--sex-2--age--cause--location--year",
-            "path": "ddf--datapoints--incidence_rate--by--sex-2--age--cause--location--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "2"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
-                        "name": "location"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "incidence_rate"
-                    }
-                ],
-                "primaryKey": [
-                    "sex",
-                    "age",
-                    "cause",
-                    "location",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--incidence_rate--by--sex-3--age--cause--location--year",
-            "path": "ddf--datapoints--incidence_rate--by--sex-3--age--cause--location--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "sex",
-                        "constraints": {
-                            "enum": [
-                                "3"
-                            ]
-                        }
-                    },
-                    {
-                        "name": "age"
-                    },
-                    {
-                        "name": "cause"
-                    },
-                    {
-                        "name": "location"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "incidence_rate"
-                    }
-                ],
-                "primaryKey": [
-                    "sex",
-                    "age",
-                    "cause",
-                    "location",
                     "year"
                 ]
             }
@@ -643,74 +357,11 @@
         "entities": [
             {
                 "primaryKey": [
-                    "age"
-                ],
-                "value": "name",
-                "resources": [
-                    "ddf--entities--age"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "age"
-                ],
-                "value": "short_name",
-                "resources": [
-                    "ddf--entities--age"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "age"
-                ],
-                "value": "type",
-                "resources": [
-                    "ddf--entities--age"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "cause"
-                ],
-                "value": "label",
-                "resources": [
-                    "ddf--entities--cause"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "cause"
-                ],
-                "value": "medium_name",
-                "resources": [
-                    "ddf--entities--cause"
-                ]
-            },
-            {
-                "primaryKey": [
                     "cause"
                 ],
                 "value": "name",
                 "resources": [
                     "ddf--entities--cause"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "cause"
-                ],
-                "value": "short_name",
-                "resources": [
-                    "ddf--entities--cause"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "location"
-                ],
-                "value": "medium_name",
-                "resources": [
-                    "ddf--entities--location"
                 ]
             },
             {
@@ -724,47 +375,20 @@
             },
             {
                 "primaryKey": [
-                    "location"
-                ],
-                "value": "short_name",
-                "resources": [
-                    "ddf--entities--location"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "location"
-                ],
-                "value": "type",
-                "resources": [
-                    "ddf--entities--location"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "rei"
+                    "measure"
                 ],
                 "value": "name",
                 "resources": [
-                    "ddf--entities--rei"
+                    "ddf--entities--measure"
                 ]
             },
             {
                 "primaryKey": [
-                    "rei"
+                    "metric"
                 ],
-                "value": "short_name",
+                "value": "name",
                 "resources": [
-                    "ddf--entities--rei"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "rei"
-                ],
-                "value": "type",
-                "resources": [
-                    "ddf--entities--rei"
+                    "ddf--entities--metric"
                 ]
             },
             {
@@ -780,62 +404,90 @@
         "datapoints": [
             {
                 "primaryKey": [
-                    "age",
-                    "cause",
                     "location",
                     "sex",
                     "year"
                 ],
-                "value": "deaths_number",
+                "value": "breast_cancer_deaths_number_all_ages",
                 "resources": [
-                    "ddf--datapoints--deaths_number--by--sex-3--age--cause--location--year",
-                    "ddf--datapoints--deaths_number--by--sex-2--age--cause--location--year",
-                    "ddf--datapoints--deaths_number--by--sex-1--age--cause--location--year"
+                    "ddf--datapoints--breast_cancer_deaths_number_all_ages--by--location--sex--year"
                 ]
             },
             {
                 "primaryKey": [
-                    "age",
-                    "cause",
                     "location",
                     "sex",
                     "year"
                 ],
-                "value": "deaths_rate",
+                "value": "breast_cancer_deaths_rate_age_standardized",
                 "resources": [
-                    "ddf--datapoints--deaths_rate--by--sex-3--age--cause--location--year",
-                    "ddf--datapoints--deaths_rate--by--sex-2--age--cause--location--year",
-                    "ddf--datapoints--deaths_rate--by--sex-1--age--cause--location--year"
+                    "ddf--datapoints--breast_cancer_deaths_rate_age_standardized--by--location--sex--year"
                 ]
             },
             {
                 "primaryKey": [
-                    "age",
-                    "cause",
                     "location",
                     "sex",
                     "year"
                 ],
-                "value": "incidence_number",
+                "value": "breast_cancer_deaths_rate_all_ages",
                 "resources": [
-                    "ddf--datapoints--incidence_number--by--sex-3--age--cause--location--year",
-                    "ddf--datapoints--incidence_number--by--sex-2--age--cause--location--year",
-                    "ddf--datapoints--incidence_number--by--sex-1--age--cause--location--year"
+                    "ddf--datapoints--breast_cancer_deaths_rate_all_ages--by--location--sex--year"
                 ]
             },
             {
                 "primaryKey": [
-                    "age",
-                    "cause",
                     "location",
                     "sex",
                     "year"
                 ],
-                "value": "incidence_rate",
+                "value": "breast_cancer_incidence_number_all_ages",
                 "resources": [
-                    "ddf--datapoints--incidence_rate--by--sex-3--age--cause--location--year",
-                    "ddf--datapoints--incidence_rate--by--sex-2--age--cause--location--year",
-                    "ddf--datapoints--incidence_rate--by--sex-1--age--cause--location--year"
+                    "ddf--datapoints--breast_cancer_incidence_number_all_ages--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "breast_cancer_incidence_rate_age_standardized",
+                "resources": [
+                    "ddf--datapoints--breast_cancer_incidence_rate_age_standardized--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "breast_cancer_incidence_rate_all_ages",
+                "resources": [
+                    "ddf--datapoints--breast_cancer_incidence_rate_all_ages--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "fire_heat_and_hot_substances_deaths_rate_age_standardized",
+                "resources": [
+                    "ddf--datapoints--fire_heat_and_hot_substances_deaths_rate_age_standardized--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "motor_vehicle_road_injuries_deaths_rate_age_standardized",
+                "resources": [
+                    "ddf--datapoints--motor_vehicle_road_injuries_deaths_rate_age_standardized--by--location--sex--year"
                 ]
             }
         ],

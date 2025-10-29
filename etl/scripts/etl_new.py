@@ -120,12 +120,15 @@ def extract_entities(df):
     # Extract locations
     location_cols = ["location_id", "location_name"]
     locations = df[location_cols].drop_duplicates().sort_values("location_id")
+    # Keep only the first name for each location_id (in case of duplicates)
+    locations = locations.drop_duplicates(subset=["location_id"], keep="first")
     locations.columns = ["location", "name"]
     entities["location"] = locations
 
     # Extract sex
     sex_cols = ["sex_id", "sex_name"]
     sexes = df[sex_cols].drop_duplicates().sort_values("sex_id")
+    sexes = sexes.drop_duplicates(subset=["sex_id"], keep="first")
     sexes.columns = ["sex", "name"]
     entities["sex"] = sexes
 
@@ -134,18 +137,21 @@ def extract_entities(df):
     # Extract cause
     cause_cols = ["cause_id", "cause_name"]
     causes = df[cause_cols].drop_duplicates().sort_values("cause_id")
+    causes = causes.drop_duplicates(subset=["cause_id"], keep="first")
     causes.columns = ["cause", "name"]
     entities["cause"] = causes
 
     # Extract measure
     measure_cols = ["measure_id", "measure_name"]
     measures = df[measure_cols].drop_duplicates().sort_values("measure_id")
+    measures = measures.drop_duplicates(subset=["measure_id"], keep="first")
     measures.columns = ["measure", "name"]
     entities["measure"] = measures
 
     # Extract metric
     metric_cols = ["metric_id", "metric_name"]
     metrics = df[metric_cols].drop_duplicates().sort_values("metric_id")
+    metrics = metrics.drop_duplicates(subset=["metric_id"], keep="first")
     metrics.columns = ["metric", "name"]
     entities["metric"] = metrics
 
@@ -214,21 +220,19 @@ def serve_datapoints(df, indicators):
             print(f"    WARNING: No data found for {concept}")
             continue
 
-        # Select and rename columns for DDF format (age_id removed from dimensions)
-        df_out = df_indicator[
-            ["location_id", "sex_id", "cause_id", "year", "val"]
-        ].copy()
+        # Select and rename columns for DDF format (age and cause removed from dimensions)
+        df_out = df_indicator[["location_id", "sex_id", "year", "val"]].copy()
 
-        df_out.columns = ["location", "sex", "cause", "year", concept]
+        df_out.columns = ["location", "sex", "year", concept]
 
         # Format the value column
         df_out[concept] = df_out[concept].map(formatter)
 
-        # Sort by dimensions (age removed)
-        df_out = df_out.sort_values(by=["location", "sex", "cause", "year"])
+        # Sort by dimensions (age and cause removed)
+        df_out = df_out.sort_values(by=["location", "sex", "year"])
 
-        # Create filename following DDF naming convention (age removed from dimensions)
-        by_dims = ["location", "sex", "cause", "year"]
+        # Create filename following DDF naming convention (age and cause removed from dimensions)
+        by_dims = ["location", "sex", "year"]
         filename = f"ddf--datapoints--{concept}--by--{'--'.join(by_dims)}.csv"
         filepath = osp.join(OUTPUT_DIR, filename)
 
