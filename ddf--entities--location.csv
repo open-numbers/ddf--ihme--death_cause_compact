@@ -16,7 +16,7 @@ location,name
 22,Fiji
 23,Kiribati
 24,Marshall Islands
-25,Micronesia (Federated States of)
+25,Federated States of Micronesia
 26,Papua New Guinea
 27,Samoa
 28,Solomon Islands
@@ -48,7 +48,7 @@ location,name
 58,Estonia
 59,Latvia
 60,Lithuania
-61,Republic of Moldova
+61,Moldova
 62,Russian Federation
 63,Ukraine
 66,Brunei Darussalam
@@ -83,7 +83,7 @@ location,name
 98,Chile
 99,Uruguay
 101,Canada
-102,United States of America
+102,United States
 105,Antigua and Barbuda
 106,Bahamas
 107,Barbados
@@ -99,7 +99,7 @@ location,name
 117,Saint Vincent and the Grenadines
 118,Suriname
 119,Trinidad and Tobago
-121,Bolivia (Plurinational State of)
+121,Bolivia
 122,Ecuador
 123,Peru
 125,Colombia
@@ -110,13 +110,13 @@ location,name
 130,Mexico
 131,Nicaragua
 132,Panama
-133,Venezuela (Bolivarian Republic of)
+133,Venezuela
 135,Brazil
 136,Paraguay
 139,Algeria
 140,Bahrain
 141,Egypt
-142,Iran (Islamic Republic of)
+142,Iran
 143,Iraq
 144,Jordan
 145,Kuwait
@@ -127,9 +127,9 @@ location,name
 150,Oman
 151,Qatar
 152,Saudi Arabia
-153,Syrian Arab Republic
+153,Syria
 154,Tunisia
-155,Türkiye
+155,Turkey
 156,United Arab Emirates
 157,Yemen
 160,Afghanistan
@@ -157,22 +157,22 @@ location,name
 185,Rwanda
 186,Seychelles
 187,Somalia
-189,United Republic of Tanzania
+189,Tanzania
 190,Uganda
 191,Zambia
 193,Botswana
 194,Lesotho
 195,Namibia
 196,South Africa
-197,Eswatini
+197,Swaziland
 198,Zimbabwe
 200,Benin
 201,Burkina Faso
 202,Cameroon
-203,Cabo Verde
+203,Cape Verde
 204,Chad
 205,Côte d'Ivoire
-206,Gambia
+206,The Gambia
 207,Ghana
 208,Guinea
 209,Guinea-Bissau
