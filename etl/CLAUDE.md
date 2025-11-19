@@ -2,11 +2,6 @@
 
 This dataset contains some indicators from IHME GBD database.
 
-## TODOs
-
-- Readme is outdated, update it
-- update data with GBD 2023
-
 ## NOTEs
 
 - Files are downloaded from GBD's result tool, which will be csvs compressed in zip files
