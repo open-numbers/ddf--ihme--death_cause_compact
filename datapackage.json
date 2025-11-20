@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-11-19T02:35:08.509Z",
+    "created": "2025-11-20T02:42:48.781Z",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -76,6 +76,40 @@
                 ],
                 "primaryKey": [
                     "location"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--measure",
+            "path": "ddf--entities--measure.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "measure"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "measure"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--metric",
+            "path": "ddf--entities--metric.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "metric"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "metric"
                 ]
             }
         },
@@ -237,6 +271,106 @@
                     },
                     {
                         "name": "breast_cancer_incidence_rate_all_ages"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--cervical_cancer_deaths_number_all_ages--by--location--sex--year",
+            "path": "ddf--datapoints--cervical_cancer_deaths_number_all_ages--by--location--sex--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cervical_cancer_deaths_number_all_ages"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--cervical_cancer_deaths_rate_age_standardized--by--location--sex--year",
+            "path": "ddf--datapoints--cervical_cancer_deaths_rate_age_standardized--by--location--sex--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cervical_cancer_deaths_rate_age_standardized"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--cervical_cancer_incidence_number_all_ages--by--location--sex--year",
+            "path": "ddf--datapoints--cervical_cancer_incidence_number_all_ages--by--location--sex--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cervical_cancer_incidence_number_all_ages"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--cervical_cancer_incidence_rate_age_standardized--by--location--sex--year",
+            "path": "ddf--datapoints--cervical_cancer_incidence_rate_age_standardized--by--location--sex--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "cervical_cancer_incidence_rate_age_standardized"
                     }
                 ],
                 "primaryKey": [
@@ -941,6 +1075,24 @@
             },
             {
                 "primaryKey": [
+                    "measure"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--measure"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "metric"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--metric"
+                ]
+            },
+            {
+                "primaryKey": [
                     "sex"
                 ],
                 "value": "name",
@@ -1014,6 +1166,50 @@
                 "value": "breast_cancer_incidence_rate_all_ages",
                 "resources": [
                     "ddf--datapoints--breast_cancer_incidence_rate_all_ages--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "cervical_cancer_deaths_number_all_ages",
+                "resources": [
+                    "ddf--datapoints--cervical_cancer_deaths_number_all_ages--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "cervical_cancer_deaths_rate_age_standardized",
+                "resources": [
+                    "ddf--datapoints--cervical_cancer_deaths_rate_age_standardized--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "cervical_cancer_incidence_number_all_ages",
+                "resources": [
+                    "ddf--datapoints--cervical_cancer_incidence_number_all_ages--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "cervical_cancer_incidence_rate_age_standardized",
+                "resources": [
+                    "ddf--datapoints--cervical_cancer_incidence_rate_age_standardized--by--location--sex--year"
                 ]
             },
             {

@@ -31,3 +31,7 @@ motorcyclist_road_injuries_deaths_rate_age_standardized,Motorcyclist road injuri
 poisonings_deaths_rate_age_standardized,Poisonings Deaths Rate Age-standardized,measure
 falls_deaths_rate_age_standardized,Falls Deaths Rate Age-standardized,measure
 drowning_deaths_rate_age_standardized,Drowning Deaths Rate Age-standardized,measure
+cervical_cancer_deaths_number_all_ages,Cervical cancer Deaths Number All ages,measure
+cervical_cancer_incidence_number_all_ages,Cervical cancer Incidence Number All ages,measure
+cervical_cancer_deaths_rate_age_standardized,Cervical cancer Deaths Rate Age-standardized,measure
+cervical_cancer_incidence_rate_age_standardized,Cervical cancer Incidence Rate Age-standardized,measure

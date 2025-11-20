@@ -8,6 +8,7 @@ causes, disaggregated by sex, are included in this dataset:
 
 - Stomach cancer
 - Liver cancer
+- Cervical Cancer
 - Tracheal, bronchus, and lung cancer
 - Breast cancer
 - Prostate cancer
