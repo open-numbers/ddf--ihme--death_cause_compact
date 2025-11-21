@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-11-20T02:42:48.781Z",
+    "created": "2025-11-21T01:35:29.452Z",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -831,6 +831,31 @@
             }
         },
         {
+            "name": "ddf--datapoints--self_harm_deaths_number_all_ages--by--location--sex--year",
+            "path": "ddf--datapoints--self_harm_deaths_number_all_ages--by--location--sex--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "self_harm_deaths_number_all_ages"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--stomach_cancer_deaths_number_all_ages--by--location--sex--year",
             "path": "ddf--datapoints--stomach_cancer_deaths_number_all_ages--by--location--sex--year.csv",
             "schema": {
@@ -1408,6 +1433,17 @@
                 "value": "prostate_cancer_incidence_rate_age_standardized",
                 "resources": [
                     "ddf--datapoints--prostate_cancer_incidence_rate_age_standardized--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "self_harm_deaths_number_all_ages",
+                "resources": [
+                    "ddf--datapoints--self_harm_deaths_number_all_ages--by--location--sex--year"
                 ]
             },
             {
