@@ -6,6 +6,7 @@ cause,name
 432,Cervical cancer
 438,Prostate cancer
 441,Colon and rectum cancer
+689,Road injuries
 692,Motorcyclist road injuries
 693,Motor vehicle road injuries
 697,Falls
@@ -13,3 +14,4 @@ cause,name
 699,"Fire, heat, and hot substances"
 700,Poisonings
 718,Self-harm
+724,Interpersonal violence

@@ -36,3 +36,7 @@ cervical_cancer_incidence_number_all_ages,Cervical cancer Incidence Number All a
 cervical_cancer_deaths_rate_age_standardized,Cervical cancer Deaths Rate Age-standardized,measure
 cervical_cancer_incidence_rate_age_standardized,Cervical cancer Incidence Rate Age-standardized,measure
 self_harm_deaths_number_all_ages,Self-harm Deaths Number All ages,measure
+interpersonal_violence_deaths_number_all_ages,Interpersonal violence Deaths Number All ages,measure
+road_injuries_deaths_number_all_ages,Road injuries Deaths Number All ages,measure
+interpersonal_violence_deaths_rate_age_standardized,Interpersonal violence Deaths Rate Age-standardized,measure
+road_injuries_deaths_rate_age_standardized,Road injuries Deaths Rate Age-standardized,measure

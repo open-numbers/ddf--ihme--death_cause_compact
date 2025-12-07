@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-11-21T01:35:29.452Z",
+    "created": "2025-12-07T03:26:52.893Z",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -556,6 +556,56 @@
             }
         },
         {
+            "name": "ddf--datapoints--interpersonal_violence_deaths_number_all_ages--by--location--sex--year",
+            "path": "ddf--datapoints--interpersonal_violence_deaths_number_all_ages--by--location--sex--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "interpersonal_violence_deaths_number_all_ages"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--interpersonal_violence_deaths_rate_age_standardized--by--location--sex--year",
+            "path": "ddf--datapoints--interpersonal_violence_deaths_rate_age_standardized--by--location--sex--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "interpersonal_violence_deaths_rate_age_standardized"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--liver_cancer_deaths_number_all_ages--by--location--sex--year",
             "path": "ddf--datapoints--liver_cancer_deaths_number_all_ages--by--location--sex--year.csv",
             "schema": {
@@ -821,6 +871,56 @@
                     },
                     {
                         "name": "prostate_cancer_incidence_rate_age_standardized"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--road_injuries_deaths_number_all_ages--by--location--sex--year",
+            "path": "ddf--datapoints--road_injuries_deaths_number_all_ages--by--location--sex--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "road_injuries_deaths_number_all_ages"
+                    }
+                ],
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--road_injuries_deaths_rate_age_standardized--by--location--sex--year",
+            "path": "ddf--datapoints--road_injuries_deaths_rate_age_standardized--by--location--sex--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "location"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "road_injuries_deaths_rate_age_standardized"
                     }
                 ],
                 "primaryKey": [
@@ -1320,6 +1420,28 @@
                     "sex",
                     "year"
                 ],
+                "value": "interpersonal_violence_deaths_number_all_ages",
+                "resources": [
+                    "ddf--datapoints--interpersonal_violence_deaths_number_all_ages--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "interpersonal_violence_deaths_rate_age_standardized",
+                "resources": [
+                    "ddf--datapoints--interpersonal_violence_deaths_rate_age_standardized--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
                 "value": "liver_cancer_deaths_number_all_ages",
                 "resources": [
                     "ddf--datapoints--liver_cancer_deaths_number_all_ages--by--location--sex--year"
@@ -1433,6 +1555,28 @@
                 "value": "prostate_cancer_incidence_rate_age_standardized",
                 "resources": [
                     "ddf--datapoints--prostate_cancer_incidence_rate_age_standardized--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "road_injuries_deaths_number_all_ages",
+                "resources": [
+                    "ddf--datapoints--road_injuries_deaths_number_all_ages--by--location--sex--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "location",
+                    "sex",
+                    "year"
+                ],
+                "value": "road_injuries_deaths_rate_age_standardized",
+                "resources": [
+                    "ddf--datapoints--road_injuries_deaths_rate_age_standardized--by--location--sex--year"
                 ]
             },
             {
